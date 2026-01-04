@@ -1,0 +1,1296 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - dialog "Privacy" [active] [ref=e3]:
+    - generic [ref=e6]:
+      - figure [ref=e8]:
+        - heading "Poštujemo vašu privatnost" [level=2] [ref=e9]
+      - button "NE SLAŽEM SE" [ref=e11] [cursor=pointer]
+      - generic [ref=e13]:
+        - text: Mi i naši
+        - button "partneri" [ref=e14] [cursor=pointer]
+        - text: pohranjujemo i/ili pristupamo informacijama na uređaju, poput kolačića, i obrađujemo osobne podatke, poput jedinstvenih identifikatora i standardnih informacija koje uređaj šalje za personalizirano oglašavanje i sadržaj, mjerenje oglasa i sadržaja, istraživanje publike i razvoj usluga. Uz vaše dopuštenje, mi i naši partneri možemo upotrebljavati precizne podatke o geolokaciji i identifikaciji skeniranjem uređaja. Možete kliknuti za davanje privole nama i našim 1553 partnerima za obradu, u skladu s gornjim opisom. U suprotnom, možete kliknuti za odbijanje davanja privole ili pristupiti detaljnijim informacijama i promijeniti svoje preferencije prije davanja privole. Imajte na umu da za neke obrade vaših osobnih podataka možda neće trebati vaša privola, no imate pravo na prigovor na takvu obradu. Vaše postavke primjenjivat će se samo na ovu web stranicu i bit će pohranjene 13 mjeseci u IABGPP_HDR_GppString cookie. Možete promijeniti svoje postavke ili povući svoj pristanak u bilo kojem trenutku vraćanjem na ovu stranicu i klikom na gumb "Privatnost" na dnu web stranice.
+    - generic [ref=e16]:
+      - button "VIŠE MOGUĆNOSTI" [ref=e17] [cursor=pointer]:
+        - generic [ref=e18]: VIŠE MOGUĆNOSTI
+      - button "NE SLAŽEM SE" [ref=e19] [cursor=pointer]:
+        - generic [ref=e20]: NE SLAŽEM SE
+      - button "SLAŽEM SE" [ref=e21] [cursor=pointer]:
+        - generic [ref=e22]: SLAŽEM SE
+  - generic [ref=e25]:
+    - banner [ref=e26]:
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - generic [ref=e30]:
+            - link "OLX.ba" [ref=e33] [cursor=pointer]:
+              - /url: /
+              - img "olx-logo" [ref=e34]
+            - list [ref=e36]:
+              - listitem [ref=e37]:
+                - link "Početna" [ref=e38] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e39]:
+                - link "Kategorije" [ref=e40] [cursor=pointer]:
+                  - /url: /kategorije
+              - listitem [ref=e41]:
+                - link "Shopovi" [ref=e42] [cursor=pointer]:
+                  - /url: /shopovi
+              - listitem [ref=e43]:
+                - link "Marketing" [ref=e44] [cursor=pointer]:
+                  - /url: https://marketing.olx.ba/
+              - listitem [ref=e45]:
+                - link "Blog" [ref=e46] [cursor=pointer]:
+                  - /url: https://blog.olx.ba/
+              - listitem [ref=e47]:
+                - button "Ostali linkovi" [ref=e48] [cursor=pointer]
+              - listitem [ref=e49]:
+                - button "Objavi oglas" [ref=e50] [cursor=pointer]:
+                  - img [ref=e51]
+                  - text: Objavi oglas
+          - generic [ref=e53]:
+            - link "prijava" [ref=e54] [cursor=pointer]:
+              - /url: /login
+              - text: Prijavi se
+            - link "registracija" [ref=e55] [cursor=pointer]:
+              - /url: /register
+              - text: Registracija
+        - generic [ref=e56]:
+          - searchbox "Pretraga" [ref=e59]
+          - button "button-image Objavi oglas" [ref=e61] [cursor=pointer]:
+            - generic [ref=e62]:
+              - img "button-image" [ref=e63]
+              - paragraph [ref=e64]: Objavi oglas
+    - generic [ref=e66]:
+      - generic [ref=e67]:
+        - generic [ref=e69]:
+          - link "OLX kategorije Kategorije" [ref=e70] [cursor=pointer]:
+            - /url: /kategorije
+            - img "OLX kategorije" [ref=e72]
+            - paragraph: Kategorije
+          - link "Praznična akcija Praznična akcija" [ref=e73] [cursor=pointer]:
+            - /url: https://olx.ba/pretraga?attr=&attr_encoded=1&badges=PRAZNI%C4%8CNA+AKCIJA&page=1&state=1&shop_only=1
+            - img "Praznična akcija" [ref=e75]
+            - paragraph [ref=e76]: Praznična akcija
+          - link "Vozila Vozila" [ref=e77] [cursor=pointer]:
+            - /url: /vozila
+            - img "Vozila" [ref=e79]
+            - paragraph: Vozila
+          - link "Nekretnine Nekretnine" [ref=e80] [cursor=pointer]:
+            - /url: /nekretnine
+            - img "Nekretnine" [ref=e82]
+            - paragraph: Nekretnine
+          - link "Servisi i usluge Servisi i usluge" [ref=e83] [cursor=pointer]:
+            - /url: /servisi-i-usluge?from_home=true
+            - img "Servisi i usluge" [ref=e85]
+            - paragraph: Servisi i usluge
+          - link "Poslovi Poslovi" [ref=e86] [cursor=pointer]:
+            - /url: /poslovi?from_home=true
+            - img "Poslovi" [ref=e88]
+            - paragraph: Poslovi
+          - link "Dijelovi za vozila Dijelovi za vozila" [ref=e89] [cursor=pointer]:
+            - /url: /dijelovi-za-vozila?from_home=true
+            - img "Dijelovi za vozila" [ref=e91]
+            - paragraph: Dijelovi za vozila
+          - link "Mobilni uređaji Mobilni uređaji" [ref=e92] [cursor=pointer]:
+            - /url: /mobilni-uredjaji?from_home=true
+            - img "Mobilni uređaji" [ref=e94]
+            - paragraph: Mobilni uređaji
+          - link "Kompjuteri Kompjuteri" [ref=e95] [cursor=pointer]:
+            - /url: /kompjuteri?from_home=true
+            - img "Kompjuteri" [ref=e97]
+            - paragraph: Kompjuteri
+          - link "Tehnika Tehnika" [ref=e98] [cursor=pointer]:
+            - /url: /tehnika?from_home=true
+            - img "Tehnika" [ref=e100]
+            - paragraph: Tehnika
+          - link "Moj dom Moj dom" [ref=e101] [cursor=pointer]:
+            - /url: /moj-dom?from_home=true
+            - img "Moj dom" [ref=e103]
+            - paragraph: Moj dom
+          - link "Biznis i Industrija Biznis i Industrija" [ref=e104] [cursor=pointer]:
+            - /url: /biznis-i-industrija?from_home=true
+            - img "Biznis i Industrija" [ref=e106]
+            - paragraph: Biznis i Industrija
+          - link "Odjeća i obuća Odjeća i obuća" [ref=e107] [cursor=pointer]:
+            - /url: /odjeca-i-obuca?from_home=true
+            - img "Odjeća i obuća" [ref=e109]
+            - paragraph: Odjeća i obuća
+          - link "Sportska oprema Sportska oprema" [ref=e110] [cursor=pointer]:
+            - /url: /sportska-oprema?from_home=true
+            - img "Sportska oprema" [ref=e112]
+            - paragraph: Sportska oprema
+        - generic [ref=e113]:
+          - generic [ref=e114]:
+            - heading "Izdvojeni oglasi" [level=2] [ref=e115]
+            - button "button-image Filtriraj izdvojene oglase" [ref=e116] [cursor=pointer]:
+              - generic [ref=e117]:
+                - img "button-image" [ref=e118]
+                - paragraph [ref=e119]: Filtriraj izdvojene oglase
+          - generic [ref=e120]:
+            - link "Dostupno odmah Audi A8 Audi A8 dizel 352.000 km 2007 7.500 KM prije jedne minute" [ref=e122] [cursor=pointer]:
+              - /url: /artikal/73263373
+              - generic [ref=e124]:
+                - generic [ref=e125]:
+                  - generic [ref=e127]: Dostupno odmah
+                  - img "Audi A8" [ref=e129]
+                - generic [ref=e130]:
+                  - heading "Audi A8" [level=1] [ref=e132]
+                  - generic [ref=e134]:
+                    - generic [ref=e136]: dizel
+                    - generic [ref=e137]:
+                      - generic [ref=e138]: "352.000"
+                      - text: km
+                    - generic [ref=e140]: "2007"
+                  - generic [ref=e141]:
+                    - generic [ref=e143]: 7.500 KM
+                    - generic [ref=e144]: prije jedne minute
+            - link "OLX SHOP Dostupno odmah Citroen C4 Picasso Citroen C4 Picasso dizel 212.470 km 2013 12.900 KM prije jedne minute" [ref=e146] [cursor=pointer]:
+              - /url: /artikal/73099197
+              - generic [ref=e148]:
+                - generic [ref=e149]:
+                  - generic [ref=e152]: OLX SHOP
+                  - generic [ref=e154]: Dostupno odmah
+                  - img "Citroen C4 Picasso" [ref=e156]
+                - generic [ref=e157]:
+                  - heading "Citroen C4 Picasso" [level=1] [ref=e159]
+                  - generic [ref=e161]:
+                    - generic [ref=e163]: dizel
+                    - generic [ref=e164]:
+                      - generic [ref=e165]: "212.470"
+                      - text: km
+                    - generic [ref=e167]: "2013"
+                  - generic [ref=e168]:
+                    - generic [ref=e170]: 12.900 KM
+                    - generic [ref=e171]: prije jedne minute
+            - link "OLX SHOP Dostupno odmah Računar Lenovo M75s; R3 PRO 3200G; 8GB; 256; Windows 11 DOPER Računar Lenovo M75s; R3 PRO 3200G; 8GB; 256; Windows 11 DOPER Izdvojeni premium filter PRAZNIČNA AKCIJA 239 KM prije jedne minute" [ref=e173] [cursor=pointer]:
+              - /url: /artikal/73084212
+              - generic [ref=e175]:
+                - generic [ref=e176]:
+                  - generic [ref=e178]:
+                    - generic [ref=e179]: OLX SHOP
+                    - img [ref=e181]
+                  - generic [ref=e184]: Dostupno odmah
+                  - img "Računar Lenovo M75s; R3 PRO 3200G; 8GB; 256; Windows 11 DOPER" [ref=e186]
+                - generic [ref=e187]:
+                  - heading "Računar Lenovo M75s; R3 PRO 3200G; 8GB; 256; Windows 11 DOPER" [level=1] [ref=e189]
+                  - generic [ref=e192]:
+                    - generic:
+                      - generic: Izdvojeni premium filter
+                    - paragraph [ref=e193]: PRAZNIČNA AKCIJA
+                  - generic [ref=e194]:
+                    - generic [ref=e196]: 239 KM
+                    - generic [ref=e197]: prije jedne minute
+            - link "Karcher k3 full control Karcher k3 full control Na upit prije jedne minute" [ref=e199] [cursor=pointer]:
+              - /url: /artikal/73175949
+              - generic [ref=e201]:
+                - img "Karcher k3 full control" [ref=e204]
+                - generic [ref=e205]:
+                  - heading "Karcher k3 full control" [level=1] [ref=e207]
+                  - generic [ref=e209]:
+                    - generic [ref=e211]: Na upit
+                    - generic [ref=e212]: prije jedne minute
+            - link "OLX SHOP BMW F10 530 XDrive 3.0 Full Oprema, UVOZ SVICARSKA BMW F10 530 XDrive 3.0 Full Oprema, UVOZ SVICARSKA dizel 264.000 km 2012 27.500 KM prije jedne minute" [ref=e214] [cursor=pointer]:
+              - /url: /artikal/73280436
+              - generic [ref=e216]:
+                - generic [ref=e217]:
+                  - generic [ref=e220]: OLX SHOP
+                  - img "BMW F10 530 XDrive 3.0 Full Oprema, UVOZ SVICARSKA" [ref=e222]
+                - generic [ref=e223]:
+                  - heading "BMW F10 530 XDrive 3.0 Full Oprema, UVOZ SVICARSKA" [level=1] [ref=e225]
+                  - generic [ref=e227]:
+                    - generic [ref=e229]: dizel
+                    - generic [ref=e230]:
+                      - generic [ref=e231]: "264.000"
+                      - text: km
+                    - generic [ref=e233]: "2012"
+                  - generic [ref=e234]:
+                    - generic [ref=e236]: 27.500 KM
+                    - generic [ref=e237]: prije jedne minute
+            - link "Dostupno odmah Stihl GS461 Stihl GS461 3.300 KM prije jedne minute" [ref=e239] [cursor=pointer]:
+              - /url: /artikal/73388662
+              - generic [ref=e241]:
+                - generic [ref=e242]:
+                  - generic [ref=e244]: Dostupno odmah
+                  - img "Stihl GS461" [ref=e246]
+                - generic [ref=e247]:
+                  - heading "Stihl GS461" [level=1] [ref=e249]
+                  - generic [ref=e251]:
+                    - generic [ref=e253]: 3.300 KM
+                    - generic [ref=e254]: prije jedne minute
+            - link "Dostupno odmah Golf 5 4motion Golf 5 4motion dizel 301.058 km 2007 Na upit prije jedne minute" [ref=e256] [cursor=pointer]:
+              - /url: /artikal/73246938
+              - generic [ref=e258]:
+                - generic [ref=e259]:
+                  - img [ref=e263]
+                  - generic [ref=e267]: Dostupno odmah
+                  - img "Golf 5 4motion" [ref=e269]
+                - generic [ref=e270]:
+                  - heading "Golf 5 4motion" [level=1] [ref=e272]
+                  - generic [ref=e274]:
+                    - generic [ref=e276]: dizel
+                    - generic [ref=e277]:
+                      - generic [ref=e278]: "301.058"
+                      - text: km
+                    - generic [ref=e280]: "2007"
+                  - generic [ref=e281]:
+                    - generic [ref=e283]: Na upit
+                    - generic [ref=e284]: prije jedne minute
+            - link "OLX SHOP Dostupno odmah Peugeot 308 1.5 HDI 2019. god Peugeot 308 1.5 HDI 2019. god dizel 142.000 km 2019 Na upit prije jedne minute" [ref=e286] [cursor=pointer]:
+              - /url: /artikal/68602138
+              - generic [ref=e288]:
+                - generic [ref=e289]:
+                  - generic [ref=e292]: OLX SHOP
+                  - generic [ref=e294]: Dostupno odmah
+                  - img "Peugeot 308 1.5 HDI 2019. god" [ref=e296]
+                - generic [ref=e297]:
+                  - heading "Peugeot 308 1.5 HDI 2019. god" [level=1] [ref=e299]
+                  - generic [ref=e301]:
+                    - generic [ref=e303]: dizel
+                    - generic [ref=e304]:
+                      - generic [ref=e305]: "142.000"
+                      - text: km
+                    - generic [ref=e307]: "2019"
+                  - generic [ref=e308]:
+                    - generic [ref=e310]: Na upit
+                    - generic [ref=e311]: prije jedne minute
+            - link "OLX SHOP Dostupno odmah Škoda Superb SW 2.0 TDI DSG Automatik Kamera Karavan Škoda Superb SW 2.0 TDI DSG Automatik Kamera Karavan dizel 144.173 km 2019 Izdvojeni premium filter Garancija Izdvojeni premium filter Bez udesa 34.900 KM prije jedne minute" [ref=e313] [cursor=pointer]:
+              - /url: /artikal/72619511
+              - generic [ref=e315]:
+                - generic [ref=e316]:
+                  - generic [ref=e319]: OLX SHOP
+                  - generic [ref=e321]: Dostupno odmah
+                  - img "Škoda Superb SW 2.0 TDI DSG Automatik Kamera Karavan" [ref=e323]
+                - generic [ref=e324]:
+                  - heading "Škoda Superb SW 2.0 TDI DSG Automatik Kamera Karavan" [level=1] [ref=e326]
+                  - generic [ref=e328]:
+                    - generic [ref=e330]: dizel
+                    - generic [ref=e331]:
+                      - generic [ref=e332]: "144.173"
+                      - text: km
+                    - generic [ref=e334]: "2019"
+                  - generic [ref=e335]:
+                    - generic [ref=e336]:
+                      - generic:
+                        - generic: Izdvojeni premium filter
+                      - paragraph [ref=e337]: Garancija
+                    - generic [ref=e338]:
+                      - generic:
+                        - generic: Izdvojeni premium filter
+                      - paragraph [ref=e339]: Bez udesa
+                  - generic [ref=e340]:
+                    - generic [ref=e342]: 34.900 KM
+                    - generic [ref=e343]: prije jedne minute
+            - link "OLX SHOP Dostupno odmah Ford Focus TDDI, TOP STANJE Ford Focus TDDI, TOP STANJE dizel 288.000 km 2001 3.200 KM prije jedne minute" [ref=e345] [cursor=pointer]:
+              - /url: /artikal/73376703
+              - generic [ref=e347]:
+                - generic [ref=e348]:
+                  - generic [ref=e351]: OLX SHOP
+                  - generic [ref=e353]: Dostupno odmah
+                  - img "Ford Focus TDDI, TOP STANJE" [ref=e355]
+                - generic [ref=e356]:
+                  - heading "Ford Focus TDDI, TOP STANJE" [level=1] [ref=e358]
+                  - generic [ref=e360]:
+                    - generic [ref=e362]: dizel
+                    - generic [ref=e363]:
+                      - generic [ref=e364]: "288.000"
+                      - text: km
+                    - generic [ref=e366]: "2001"
+                  - generic [ref=e367]:
+                    - generic [ref=e369]: 3.200 KM
+                    - generic [ref=e370]: prije jedne minute
+            - link "OLX SHOP Fiat 500L 1.4 16V 88kw NAVIGACIJA,KOŽA,MF-VOLAN 2014 Fiat 500L 1.4 16V 88kw NAVIGACIJA,KOŽA,MF-VOLAN 2014 benzin 217.000 km 2014 Izdvojeni premium filter Garancija Izdvojeni premium filter Bez udesa 14.999 KM prije 2 minute" [ref=e372] [cursor=pointer]:
+              - /url: /artikal/70551713
+              - generic [ref=e374]:
+                - generic [ref=e375]:
+                  - generic [ref=e378]: OLX SHOP
+                  - img "Fiat 500L 1.4 16V 88kw NAVIGACIJA,KOŽA,MF-VOLAN 2014" [ref=e380]
+                - generic [ref=e381]:
+                  - heading "Fiat 500L 1.4 16V 88kw NAVIGACIJA,KOŽA,MF-VOLAN 2014" [level=1] [ref=e383]
+                  - generic [ref=e385]:
+                    - generic [ref=e387]: benzin
+                    - generic [ref=e388]:
+                      - generic [ref=e389]: "217.000"
+                      - text: km
+                    - generic [ref=e391]: "2014"
+                  - generic [ref=e392]:
+                    - generic [ref=e393]:
+                      - generic:
+                        - generic: Izdvojeni premium filter
+                      - paragraph [ref=e394]: Garancija
+                    - generic [ref=e395]:
+                      - generic:
+                        - generic: Izdvojeni premium filter
+                      - paragraph [ref=e396]: Bez udesa
+                  - generic [ref=e397]:
+                    - generic [ref=e399]: 14.999 KM
+                    - generic [ref=e400]: prije 2 minute
+            - link "OLX SHOP Dostupno odmah VW PASSAT 7 1.6 TDI 77KW 2012 LED HIGHLINE TOP VW PASSAT 7 1.6 TDI 77KW 2012 LED HIGHLINE TOP dizel 290.000 km 2012 13.500 KM prije 2 minute" [ref=e403] [cursor=pointer]:
+              - /url: /artikal/72420750
+              - generic [ref=e405]:
+                - generic [ref=e406]:
+                  - generic [ref=e409]: OLX SHOP
+                  - generic [ref=e411]: Dostupno odmah
+                  - img "VW PASSAT 7 1.6 TDI 77KW 2012 LED HIGHLINE TOP" [ref=e413]
+                - generic [ref=e414]:
+                  - heading "VW PASSAT 7 1.6 TDI 77KW 2012 LED HIGHLINE TOP" [level=1] [ref=e416]
+                  - generic [ref=e418]:
+                    - generic [ref=e420]: dizel
+                    - generic [ref=e421]:
+                      - generic [ref=e422]: "290.000"
+                      - text: km
+                    - generic [ref=e424]: "2012"
+                  - generic [ref=e425]:
+                    - generic [ref=e427]: 13.500 KM
+                    - generic [ref=e428]: prije 2 minute
+            - link "OLX SHOP NOVI POKRETNI/MOBILNI/GRAĐEVINSKI KOMPRESORI NOVI POKRETNI/MOBILNI/GRAĐEVINSKI KOMPRESORI Novo Na upit prije 2 minute" [ref=e430] [cursor=pointer]:
+              - /url: /artikal/26728993
+              - generic [ref=e432]:
+                - generic [ref=e433]:
+                  - generic [ref=e436]: OLX SHOP
+                  - img "NOVI POKRETNI/MOBILNI/GRAĐEVINSKI KOMPRESORI" [ref=e438]
+                - generic [ref=e439]:
+                  - heading "NOVI POKRETNI/MOBILNI/GRAĐEVINSKI KOMPRESORI" [level=1] [ref=e441]
+                  - generic [ref=e443]: Novo
+                  - generic [ref=e444]:
+                    - generic [ref=e446]: Na upit
+                    - generic [ref=e447]: prije 2 minute
+            - link "OLX SHOP Dostupno odmah Hisense komb. veš mašina i sušilica 9KG/6KG 1400OBRT WD3S9043BW3 Hisense komb. veš mašina i sušilica 9KG/6KG 1400OBRT WD3S9043BW3 Novo 999 KM 749 KM prije 2 minute" [ref=e449] [cursor=pointer]:
+              - /url: /artikal/73345870
+              - generic [ref=e451]:
+                - generic [ref=e452]:
+                  - generic [ref=e454]:
+                    - generic [ref=e455]: OLX SHOP
+                    - img [ref=e457]
+                  - generic [ref=e460]: Dostupno odmah
+                  - img "Hisense komb. veš mašina i sušilica 9KG/6KG 1400OBRT WD3S9043BW3" [ref=e462]
+                - generic [ref=e463]:
+                  - heading "Hisense komb. veš mašina i sušilica 9KG/6KG 1400OBRT WD3S9043BW3" [level=1] [ref=e465]
+                  - generic [ref=e467]: Novo
+                  - generic [ref=e468]:
+                    - generic [ref=e469]:
+                      - generic [ref=e470]: 999 KM
+                      - generic [ref=e471]: 749 KM
+                    - generic [ref=e472]: prije 2 minute
+            - link "OLX SHOP Dostupno odmah OPEL ZAFIRA 2.0 CDTI 121KW 7 SJEDALA UVOZ CH OPEL ZAFIRA 2.0 CDTI 121KW 7 SJEDALA UVOZ CH dizel 230.000 km 2012 12.900 KM prije 2 minute" [ref=e474] [cursor=pointer]:
+              - /url: /artikal/72594592
+              - generic [ref=e476]:
+                - generic [ref=e477]:
+                  - generic [ref=e480]: OLX SHOP
+                  - generic [ref=e482]: Dostupno odmah
+                  - img "OPEL ZAFIRA 2.0 CDTI 121KW 7 SJEDALA UVOZ CH" [ref=e484]
+                - generic [ref=e485]:
+                  - heading "OPEL ZAFIRA 2.0 CDTI 121KW 7 SJEDALA UVOZ CH" [level=1] [ref=e487]
+                  - generic [ref=e489]:
+                    - generic [ref=e491]: dizel
+                    - generic [ref=e492]:
+                      - generic [ref=e493]: "230.000"
+                      - text: km
+                    - generic [ref=e495]: "2012"
+                  - generic [ref=e496]:
+                    - generic [ref=e498]: 12.900 KM
+                    - generic [ref=e499]: prije 2 minute
+            - link "OLX SHOP NOVO! Ingersoll-Rand AKU 1\" udarni zatezač/odvijač NOVO! Ingersoll-Rand AKU 1\" udarni zatezač/odvijač Novo Na upit prije 2 minute" [ref=e501] [cursor=pointer]:
+              - /url: /artikal/44234354
+              - generic [ref=e503]:
+                - generic [ref=e504]:
+                  - generic [ref=e507]: OLX SHOP
+                  - img "NOVO! Ingersoll-Rand AKU 1\" udarni zatezač/odvijač" [ref=e509]
+                - generic [ref=e510]:
+                  - heading "NOVO! Ingersoll-Rand AKU 1\" udarni zatezač/odvijač" [level=1] [ref=e512]
+                  - generic [ref=e514]: Novo
+                  - generic [ref=e515]:
+                    - generic [ref=e517]: Na upit
+                    - generic [ref=e518]: prije 2 minute
+            - link "OLX SHOP Polovna mehanička oprema Polovna mehanička oprema Na upit prije 2 minute" [ref=e520] [cursor=pointer]:
+              - /url: /artikal/72814410
+              - generic [ref=e522]:
+                - generic [ref=e523]:
+                  - generic [ref=e526]: OLX SHOP
+                  - img "Polovna mehanička oprema" [ref=e528]
+                - generic [ref=e529]:
+                  - heading "Polovna mehanička oprema" [level=1] [ref=e531]
+                  - generic [ref=e533]:
+                    - generic [ref=e535]: Na upit
+                    - generic [ref=e536]: prije 2 minute
+            - link "OLX SHOP Dostupno odmah Ford Ka+ 1.2 63KW 190..000km! ALU, MF-VOLAN 2018 Ford Ka+ 1.2 63KW 190..000km! ALU, MF-VOLAN 2018 benzin 190.000 km 2018 Izdvojeni premium filter Garancija Izdvojeni premium filter Bez udesa 15.999 KM prije 2 minute" [ref=e538] [cursor=pointer]:
+              - /url: /artikal/72667214
+              - generic [ref=e540]:
+                - generic [ref=e541]:
+                  - generic [ref=e544]: OLX SHOP
+                  - generic [ref=e546]: Dostupno odmah
+                  - img "Ford Ka+ 1.2 63KW 190..000km! ALU, MF-VOLAN 2018" [ref=e548]
+                - generic [ref=e549]:
+                  - heading "Ford Ka+ 1.2 63KW 190..000km! ALU, MF-VOLAN 2018" [level=1] [ref=e551]
+                  - generic [ref=e553]:
+                    - generic [ref=e555]: benzin
+                    - generic [ref=e556]:
+                      - generic [ref=e557]: "190.000"
+                      - text: km
+                    - generic [ref=e559]: "2018"
+                  - generic [ref=e560]:
+                    - generic [ref=e561]:
+                      - generic:
+                        - generic: Izdvojeni premium filter
+                      - paragraph [ref=e562]: Garancija
+                    - generic [ref=e563]:
+                      - generic:
+                        - generic: Izdvojeni premium filter
+                      - paragraph [ref=e564]: Bez udesa
+                  - generic [ref=e565]:
+                    - generic [ref=e567]: 15.999 KM
+                    - generic [ref=e568]: prije 2 minute
+            - link "OLX SHOP Dostupno odmah Elektro motor monofazni 1.5 , 2.2 , 3 kw , 1400 i 2800 obrtalja Elektro motor monofazni 1.5 , 2.2 , 3 kw , 1400 i 2800 obrtalja Novo 169 KM prije 2 minute" [ref=e570] [cursor=pointer]:
+              - /url: /artikal/72875420
+              - generic [ref=e572]:
+                - generic [ref=e573]:
+                  - generic [ref=e575]:
+                    - generic [ref=e576]: OLX SHOP
+                    - img [ref=e578]
+                  - generic [ref=e581]: Dostupno odmah
+                  - img "Elektro motor monofazni 1.5 , 2.2 , 3 kw , 1400 i 2800 obrtalja" [ref=e583]
+                - generic [ref=e584]:
+                  - heading "Elektro motor monofazni 1.5 , 2.2 , 3 kw , 1400 i 2800 obrtalja" [level=1] [ref=e586]
+                  - generic [ref=e588]: Novo
+                  - generic [ref=e589]:
+                    - generic [ref=e591]: 169 KM
+                    - generic [ref=e592]: prije 2 minute
+            - link "OLX SHOP Seat Leon - TEK UVEZEN 1.6 TDI 77 kw Seat Leon - TEK UVEZEN 1.6 TDI 77 kw dizel 260.000 km 2010 10.800 KM prije 2 minute" [ref=e594] [cursor=pointer]:
+              - /url: /artikal/72638878
+              - generic [ref=e596]:
+                - generic [ref=e597]:
+                  - generic [ref=e600]: OLX SHOP
+                  - img "Seat Leon - TEK UVEZEN 1.6 TDI 77 kw" [ref=e602]
+                - generic [ref=e603]:
+                  - heading "Seat Leon - TEK UVEZEN 1.6 TDI 77 kw" [level=1] [ref=e605]
+                  - generic [ref=e607]:
+                    - generic [ref=e609]: dizel
+                    - generic [ref=e610]:
+                      - generic [ref=e611]: "260.000"
+                      - text: km
+                    - generic [ref=e613]: "2010"
+                  - generic [ref=e614]:
+                    - generic [ref=e616]: 10.800 KM
+                    - generic [ref=e617]: prije 2 minute
+            - link "Dostupno odmah VW Passat 1.6TDI 2015g. Full LED VW Passat 1.6TDI 2015g. Full LED dizel 270.000 km 2015 18.750 KM prije 2 minute" [ref=e619] [cursor=pointer]:
+              - /url: /artikal/73123597
+              - generic [ref=e621]:
+                - generic [ref=e622]:
+                  - generic [ref=e624]: Dostupno odmah
+                  - img "VW Passat 1.6TDI 2015g. Full LED" [ref=e626]
+                - generic [ref=e627]:
+                  - heading "VW Passat 1.6TDI 2015g. Full LED" [level=1] [ref=e629]
+                  - generic [ref=e631]:
+                    - generic [ref=e633]: dizel
+                    - generic [ref=e634]:
+                      - generic [ref=e635]: "270.000"
+                      - text: km
+                    - generic [ref=e637]: "2015"
+                  - generic [ref=e638]:
+                    - generic [ref=e640]: 18.750 KM
+                    - generic [ref=e641]: prije 2 minute
+            - link "OLX SHOP Dostupno odmah OFF-GRID solarna elektrana 3kW - solarni paneli OFF-GRID solarna elektrana 3kW - solarni paneli Novo 2.590 KM prije 2 minute" [ref=e643] [cursor=pointer]:
+              - /url: /artikal/72058945
+              - generic [ref=e645]:
+                - generic [ref=e646]:
+                  - generic [ref=e649]: OLX SHOP
+                  - generic [ref=e651]: Dostupno odmah
+                  - img "OFF-GRID solarna elektrana 3kW - solarni paneli" [ref=e653]
+                - generic [ref=e654]:
+                  - heading "OFF-GRID solarna elektrana 3kW - solarni paneli" [level=1] [ref=e656]
+                  - generic [ref=e658]: Novo
+                  - generic [ref=e659]:
+                    - generic [ref=e661]: 2.590 KM
+                    - generic [ref=e662]: prije 2 minute
+            - link "OLX SHOP Dostupno odmah OPEL ASTRA 1.7 CDTI 81KW 2011 GOD UVOZ NJEMACKA OPEL ASTRA 1.7 CDTI 81KW 2011 GOD UVOZ NJEMACKA dizel 288.000 km 2011 9.500 KM prije 2 minute" [ref=e664] [cursor=pointer]:
+              - /url: /artikal/69108969
+              - generic [ref=e666]:
+                - generic [ref=e667]:
+                  - generic [ref=e670]: OLX SHOP
+                  - generic [ref=e672]: Dostupno odmah
+                  - img "OPEL ASTRA 1.7 CDTI 81KW 2011 GOD UVOZ NJEMACKA" [ref=e674]
+                - generic [ref=e675]:
+                  - heading "OPEL ASTRA 1.7 CDTI 81KW 2011 GOD UVOZ NJEMACKA" [level=1] [ref=e677]
+                  - generic [ref=e679]:
+                    - generic [ref=e681]: dizel
+                    - generic [ref=e682]:
+                      - generic [ref=e683]: "288.000"
+                      - text: km
+                    - generic [ref=e685]: "2011"
+                  - generic [ref=e686]:
+                    - generic [ref=e688]: 9.500 KM
+                    - generic [ref=e689]: prije 2 minute
+            - link "OLX SHOP Dostupno odmah Volvo XC 60 2.0 B4 197ks AWD Virtual Momentum XC60 2020 Volvo XC 60 2.0 B4 197ks AWD Virtual Momentum XC60 2020 dizel 239.330 km 2020 Izdvojeni premium filter Garancija Izdvojeni premium filter Bez udesa 47.900 KM prije 2 minute" [ref=e691] [cursor=pointer]:
+              - /url: /artikal/73299252
+              - generic [ref=e693]:
+                - generic [ref=e694]:
+                  - generic [ref=e697]: OLX SHOP
+                  - generic [ref=e699]: Dostupno odmah
+                  - img "Volvo XC 60 2.0 B4 197ks AWD Virtual Momentum XC60 2020" [ref=e701]
+                - generic [ref=e702]:
+                  - heading "Volvo XC 60 2.0 B4 197ks AWD Virtual Momentum XC60 2020" [level=1] [ref=e704]
+                  - generic [ref=e706]:
+                    - generic [ref=e708]: dizel
+                    - generic [ref=e709]:
+                      - generic [ref=e710]: "239.330"
+                      - text: km
+                    - generic [ref=e712]: "2020"
+                  - generic [ref=e713]:
+                    - generic [ref=e714]:
+                      - generic:
+                        - generic: Izdvojeni premium filter
+                      - paragraph [ref=e715]: Garancija
+                    - generic [ref=e716]:
+                      - generic:
+                        - generic: Izdvojeni premium filter
+                      - paragraph [ref=e717]: Bez udesa
+                  - generic [ref=e718]:
+                    - generic [ref=e720]: 47.900 KM
+                    - generic [ref=e721]: prije 2 minute
+            - link "Dostupno odmah OPEL GRANDLAND X 2022 1.5D 130KS VIRTUAL LED F1 NOVO OPEL GRANDLAND X 2022 1.5D 130KS VIRTUAL LED F1 NOVO dizel 45.900 km 2022 Na upit prije 2 minute" [ref=e723] [cursor=pointer]:
+              - /url: /artikal/70465662
+              - generic [ref=e725]:
+                - generic [ref=e726]:
+                  - generic [ref=e728]: Dostupno odmah
+                  - img "OPEL GRANDLAND X 2022 1.5D 130KS VIRTUAL LED F1 NOVO" [ref=e730]
+                - generic [ref=e731]:
+                  - heading "OPEL GRANDLAND X 2022 1.5D 130KS VIRTUAL LED F1 NOVO" [level=1] [ref=e733]
+                  - generic [ref=e735]:
+                    - generic [ref=e737]: dizel
+                    - generic [ref=e738]:
+                      - generic [ref=e739]: "45.900"
+                      - text: km
+                    - generic [ref=e741]: "2022"
+                  - generic [ref=e742]:
+                    - generic [ref=e744]: Na upit
+                    - generic [ref=e745]: prije 2 minute
+            - link "OLX SHOP Dostupno odmah Mercedes-Benz Vito 2012 Mercedes-Benz Vito 2012 310.000 km 2012 17.500 KM 13.500 KM prije 2 minute" [ref=e747] [cursor=pointer]:
+              - /url: /artikal/64660090
+              - generic [ref=e749]:
+                - generic [ref=e750]:
+                  - generic [ref=e753]: OLX SHOP
+                  - generic [ref=e755]: Dostupno odmah
+                  - img "Mercedes-Benz Vito 2012" [ref=e757]
+                - generic [ref=e758]:
+                  - heading "Mercedes-Benz Vito 2012" [level=1] [ref=e760]
+                  - generic [ref=e762]:
+                    - generic [ref=e763]:
+                      - generic [ref=e764]: "310.000"
+                      - text: km
+                    - generic [ref=e766]: "2012"
+                  - generic [ref=e767]:
+                    - generic [ref=e768]:
+                      - generic [ref=e769]: 17.500 KM
+                      - generic [ref=e770]: 13.500 KM
+                    - generic [ref=e771]: prije 2 minute
+            - link "Dostupno odmah BMW X6 40d 3.0 225 kw TOP STANJE BMW X6 40d 3.0 225 kw TOP STANJE dizel 258.421 km 2012 38.500 KM prije 3 minute" [ref=e773] [cursor=pointer]:
+              - /url: /artikal/73370020
+              - generic [ref=e775]:
+                - generic [ref=e776]:
+                  - generic [ref=e778]: Dostupno odmah
+                  - img "BMW X6 40d 3.0 225 kw TOP STANJE" [ref=e780]
+                - generic [ref=e781]:
+                  - heading "BMW X6 40d 3.0 225 kw TOP STANJE" [level=1] [ref=e783]
+                  - generic [ref=e785]:
+                    - generic [ref=e787]: dizel
+                    - generic [ref=e788]:
+                      - generic [ref=e789]: "258.421"
+                      - text: km
+                    - generic [ref=e791]: "2012"
+                  - generic [ref=e792]:
+                    - generic [ref=e794]: 38.500 KM
+                    - generic [ref=e795]: prije 3 minute
+            - link "Škoda Yeti 4x4 dsg tek reg 4 nove gume Škoda Yeti 4x4 dsg tek reg 4 nove gume dizel 230.236 km 2014 18.400 KM prije 3 minute" [ref=e797] [cursor=pointer]:
+              - /url: /artikal/72331636
+              - generic [ref=e799]:
+                - img "Škoda Yeti 4x4 dsg tek reg 4 nove gume" [ref=e802]
+                - generic [ref=e803]:
+                  - heading "Škoda Yeti 4x4 dsg tek reg 4 nove gume" [level=1] [ref=e805]
+                  - generic [ref=e807]:
+                    - generic [ref=e809]: dizel
+                    - generic [ref=e810]:
+                      - generic [ref=e811]: "230.236"
+                      - text: km
+                    - generic [ref=e813]: "2014"
+                  - generic [ref=e814]:
+                    - generic [ref=e816]: 18.400 KM
+                    - generic [ref=e817]: prije 3 minute
+            - link "PASSAT 8 2.0TDI 140KW 4X4 RLINE R LINE R-LINE FULL PASSAT 8 2.0TDI 140KW 4X4 RLINE R LINE R-LINE FULL dizel 249.000 km 2019 34.999 KM prije 3 minute" [ref=e819] [cursor=pointer]:
+              - /url: /artikal/73386311
+              - generic [ref=e821]:
+                - img "PASSAT 8 2.0TDI 140KW 4X4 RLINE R LINE R-LINE FULL" [ref=e824]
+                - generic [ref=e825]:
+                  - heading "PASSAT 8 2.0TDI 140KW 4X4 RLINE R LINE R-LINE FULL" [level=1] [ref=e827]
+                  - generic [ref=e829]:
+                    - generic [ref=e831]: dizel
+                    - generic [ref=e832]:
+                      - generic [ref=e833]: "249.000"
+                      - text: km
+                    - generic [ref=e835]: "2019"
+                  - generic [ref=e836]:
+                    - generic [ref=e838]: 34.999 KM
+                    - generic [ref=e839]: prije 3 minute
+            - link "OLX SHOP VW Scirocco - tek uvezen 2.0 tdi 103 kw zamjena VW Scirocco - tek uvezen 2.0 tdi 103 kw zamjena dizel 226.000 km 2011 18.300 KM prije 3 minute" [ref=e841] [cursor=pointer]:
+              - /url: /artikal/72638973
+              - generic [ref=e843]:
+                - generic [ref=e844]:
+                  - generic [ref=e847]: OLX SHOP
+                  - img "VW Scirocco - tek uvezen 2.0 tdi 103 kw zamjena" [ref=e849]
+                - generic [ref=e850]:
+                  - heading "VW Scirocco - tek uvezen 2.0 tdi 103 kw zamjena" [level=1] [ref=e852]
+                  - generic [ref=e854]:
+                    - generic [ref=e856]: dizel
+                    - generic [ref=e857]:
+                      - generic [ref=e858]: "226.000"
+                      - text: km
+                    - generic [ref=e860]: "2011"
+                  - generic [ref=e861]:
+                    - generic [ref=e863]: 18.300 KM
+                    - generic [ref=e864]: prije 3 minute
+            - link "Dostupno odmah Volkswagen Golf Volkswagen Golf dizel 255.000 km 2013 15.500 KM prije 3 minute" [ref=e866] [cursor=pointer]:
+              - /url: /artikal/71768601
+              - generic [ref=e868]:
+                - generic [ref=e869]:
+                  - generic [ref=e871]: Dostupno odmah
+                  - img "Volkswagen Golf" [ref=e873]
+                - generic [ref=e874]:
+                  - heading "Volkswagen Golf" [level=1] [ref=e876]
+                  - generic [ref=e878]:
+                    - generic [ref=e880]: dizel
+                    - generic [ref=e881]:
+                      - generic [ref=e882]: "255.000"
+                      - text: km
+                    - generic [ref=e884]: "2013"
+                  - generic [ref=e885]:
+                    - generic [ref=e887]: 15.500 KM
+                    - generic [ref=e888]: prije 3 minute
+            - link "OLX SHOP Dostupno odmah Električno podno grijanje ispod keramike - pločica - laminata Električno podno grijanje ispod keramike - pločica - laminata Novo 42 KM prije 3 minute" [ref=e890] [cursor=pointer]:
+              - /url: /artikal/64737936
+              - generic [ref=e892]:
+                - generic [ref=e893]:
+                  - generic [ref=e895]:
+                    - generic [ref=e896]: OLX SHOP
+                    - img [ref=e898]
+                  - generic [ref=e901]: Dostupno odmah
+                  - img "Električno podno grijanje ispod keramike - pločica - laminata" [ref=e903]
+                - generic [ref=e904]:
+                  - heading "Električno podno grijanje ispod keramike - pločica - laminata" [level=1] [ref=e906]
+                  - generic [ref=e908]: Novo
+                  - generic [ref=e909]:
+                    - generic [ref=e911]: 42 KM
+                    - generic [ref=e912]: prije 3 minute
+            - link "Prevoz putnika Prevoz putnika prije 3 minute" [ref=e914] [cursor=pointer]:
+              - /url: /artikal/72964360
+              - generic [ref=e916]:
+                - img "Prevoz putnika" [ref=e919]
+                - generic [ref=e920]:
+                  - heading "Prevoz putnika" [level=1] [ref=e922]
+                  - generic [ref=e925]: prije 3 minute
+            - link "Dostupno odmah Škoda Octavia Scout 2.0TDI 4x4 2012g. UVOZ Škoda Octavia Scout 2.0TDI 4x4 2012g. UVOZ dizel 241.000 km 2012 14.950 KM prije 3 minute" [ref=e927] [cursor=pointer]:
+              - /url: /artikal/73296963
+              - generic [ref=e929]:
+                - generic [ref=e930]:
+                  - generic [ref=e932]: Dostupno odmah
+                  - img "Škoda Octavia Scout 2.0TDI 4x4 2012g. UVOZ" [ref=e934]
+                - generic [ref=e935]:
+                  - heading "Škoda Octavia Scout 2.0TDI 4x4 2012g. UVOZ" [level=1] [ref=e937]
+                  - generic [ref=e939]:
+                    - generic [ref=e941]: dizel
+                    - generic [ref=e942]:
+                      - generic [ref=e943]: "241.000"
+                      - text: km
+                    - generic [ref=e945]: "2012"
+                  - generic [ref=e946]:
+                    - generic [ref=e948]: 14.950 KM
+                    - generic [ref=e949]: prije 3 minute
+            - link "Nissan X-Trail 4x4 2.0 dci 2011 uvoz Nissan X-Trail 4x4 2.0 dci 2011 uvoz dizel 251.000 km 2011 13.999 KM prije 3 minute" [ref=e951] [cursor=pointer]:
+              - /url: /artikal/73375238
+              - generic [ref=e953]:
+                - img "Nissan X-Trail 4x4 2.0 dci 2011 uvoz" [ref=e956]
+                - generic [ref=e957]:
+                  - heading "Nissan X-Trail 4x4 2.0 dci 2011 uvoz" [level=1] [ref=e959]
+                  - generic [ref=e961]:
+                    - generic [ref=e963]: dizel
+                    - generic [ref=e964]:
+                      - generic [ref=e965]: "251.000"
+                      - text: km
+                    - generic [ref=e967]: "2011"
+                  - generic [ref=e968]:
+                    - generic [ref=e970]: 13.999 KM
+                    - generic [ref=e971]: prije 3 minute
+            - link "Dostupno odmah Volkswagen Golf 8 1.5 TSi *** 2023/24 *** STYLE *** Volkswagen Golf 8 1.5 TSi *** 2023/24 *** STYLE *** benzin 42.567 km 2023 Izdvojeni premium filter Garancija 36.900 KM prije 3 minute" [ref=e973] [cursor=pointer]:
+              - /url: /artikal/73329961
+              - generic [ref=e975]:
+                - generic [ref=e976]:
+                  - generic [ref=e978]: Dostupno odmah
+                  - img "Volkswagen Golf 8 1.5 TSi *** 2023/24 *** STYLE ***" [ref=e980]
+                - generic [ref=e981]:
+                  - heading "Volkswagen Golf 8 1.5 TSi *** 2023/24 *** STYLE ***" [level=1] [ref=e983]
+                  - generic [ref=e985]:
+                    - generic [ref=e987]: benzin
+                    - generic [ref=e988]:
+                      - generic [ref=e989]: "42.567"
+                      - text: km
+                    - generic [ref=e991]: "2023"
+                  - generic [ref=e993]:
+                    - generic:
+                      - generic: Izdvojeni premium filter
+                    - paragraph [ref=e994]: Garancija
+                  - generic [ref=e995]:
+                    - generic [ref=e997]: 36.900 KM
+                    - generic [ref=e998]: prije 3 minute
+            - link "Dostupno odmah Kombi prevoz selidbe odvoz namjestaja su te 061416976 SA RAMPOM Kombi prevoz selidbe odvoz namjestaja su te 061416976 SA RAMPOM prije 3 minute" [ref=e1000] [cursor=pointer]:
+              - /url: /artikal/38161548
+              - generic [ref=e1002]:
+                - generic [ref=e1003]:
+                  - img [ref=e1007]
+                  - generic [ref=e1011]: Dostupno odmah
+                  - img "Kombi prevoz selidbe odvoz namjestaja su te 061416976 SA RAMPOM" [ref=e1013]
+                - generic [ref=e1014]:
+                  - heading "Kombi prevoz selidbe odvoz namjestaja su te 061416976 SA RAMPOM" [level=1] [ref=e1016]
+                  - generic [ref=e1019]: prije 3 minute
+            - link "Dostupno odmah Frizerski salon namještaj i oprema Frizerski salon namještaj i oprema 14.000 KM prije 3 minute" [ref=e1021] [cursor=pointer]:
+              - /url: /artikal/73381074
+              - generic [ref=e1023]:
+                - generic [ref=e1024]:
+                  - generic [ref=e1026]: Dostupno odmah
+                  - img "Frizerski salon namještaj i oprema" [ref=e1028]
+                - generic [ref=e1029]:
+                  - heading "Frizerski salon namještaj i oprema" [level=1] [ref=e1031]
+                  - generic [ref=e1033]:
+                    - generic [ref=e1035]: 14.000 KM
+                    - generic [ref=e1036]: prije 3 minute
+            - link "Dostupno odmah Audi Q5 2.0 quattro 3x Sline Audi Q5 2.0 quattro 3x Sline dizel 184.300 km 2018 Izdvojeni premium filter Bez udesa 65.500 KM prije 3 minute" [ref=e1038] [cursor=pointer]:
+              - /url: /artikal/72359398
+              - generic [ref=e1040]:
+                - generic [ref=e1041]:
+                  - generic [ref=e1043]: Dostupno odmah
+                  - img "Audi Q5 2.0 quattro 3x Sline" [ref=e1045]
+                - generic [ref=e1046]:
+                  - heading "Audi Q5 2.0 quattro 3x Sline" [level=1] [ref=e1048]
+                  - generic [ref=e1050]:
+                    - generic [ref=e1052]: dizel
+                    - generic [ref=e1053]:
+                      - generic [ref=e1054]: "184.300"
+                      - text: km
+                    - generic [ref=e1056]: "2018"
+                  - generic [ref=e1058]:
+                    - generic:
+                      - generic: Izdvojeni premium filter
+                    - paragraph [ref=e1059]: Bez udesa
+                  - generic [ref=e1060]:
+                    - generic [ref=e1062]: 65.500 KM
+                    - generic [ref=e1063]: prije 3 minute
+            - link "Dostupno odmah Ford Focus 1.6 TDCi 2007 Ford Focus 1.6 TDCi 2007 dizel 320.000 km 2007 4.000 KM prije 3 minute" [ref=e1065] [cursor=pointer]:
+              - /url: /artikal/72854198
+              - generic [ref=e1067]:
+                - generic [ref=e1068]:
+                  - generic [ref=e1070]: Dostupno odmah
+                  - img "Ford Focus 1.6 TDCi 2007" [ref=e1072]
+                - generic [ref=e1073]:
+                  - heading "Ford Focus 1.6 TDCi 2007" [level=1] [ref=e1075]
+                  - generic [ref=e1077]:
+                    - generic [ref=e1079]: dizel
+                    - generic [ref=e1080]:
+                      - generic [ref=e1081]: "320.000"
+                      - text: km
+                    - generic [ref=e1083]: "2007"
+                  - generic [ref=e1084]:
+                    - generic [ref=e1086]: 4.000 KM
+                    - generic [ref=e1087]: prije 3 minute
+            - link "OLX SHOP Grijalica za Terase 2000W (zidna/stalak) B-tech - BM72508 Grijalica za Terase 2000W (zidna/stalak) B-tech - BM72508 Novo 128,80 KM 108,80 KM prije 3 minute" [ref=e1089] [cursor=pointer]:
+              - /url: /artikal/71479268
+              - generic [ref=e1091]:
+                - generic [ref=e1092]:
+                  - generic [ref=e1094]:
+                    - generic [ref=e1095]: OLX SHOP
+                    - img [ref=e1097]
+                  - img "Grijalica za Terase 2000W (zidna/stalak) B-tech - BM72508" [ref=e1100]
+                - generic [ref=e1101]:
+                  - heading "Grijalica za Terase 2000W (zidna/stalak) B-tech - BM72508" [level=1] [ref=e1103]
+                  - generic [ref=e1105]: Novo
+                  - generic [ref=e1106]:
+                    - generic [ref=e1107]:
+                      - generic [ref=e1108]: 128,80 KM
+                      - generic [ref=e1109]: 108,80 KM
+                    - generic [ref=e1110]: prije 3 minute
+            - link "OLX SHOP Dostupno odmah Volkswagen T6 Kombi T7 Transporter T6 Kombi Volkswagen T6 Kombi T7 Transporter T6 Kombi dizel 303.000 km 2017 41.000 KM 39.800 KM prije 3 minute" [ref=e1112] [cursor=pointer]:
+              - /url: /artikal/73175368
+              - generic [ref=e1114]:
+                - generic [ref=e1115]:
+                  - generic [ref=e1118]: OLX SHOP
+                  - generic [ref=e1120]: Dostupno odmah
+                  - img "Volkswagen T6 Kombi T7 Transporter T6 Kombi" [ref=e1122]
+                - generic [ref=e1123]:
+                  - heading "Volkswagen T6 Kombi T7 Transporter T6 Kombi" [level=1] [ref=e1125]
+                  - generic [ref=e1127]:
+                    - generic [ref=e1129]: dizel
+                    - generic [ref=e1130]:
+                      - generic [ref=e1131]: "303.000"
+                      - text: km
+                    - generic [ref=e1133]: "2017"
+                  - generic [ref=e1134]:
+                    - generic [ref=e1135]:
+                      - generic [ref=e1136]: 41.000 KM
+                      - generic [ref=e1137]: 39.800 KM
+                    - generic [ref=e1138]: prije 3 minute
+            - link "OLX SHOP Dostupno odmah HISENSE TV 75\" 75A6Q 4K UHD SMART Garancija 5.godina HISENSE TV 75\" 75A6Q 4K UHD SMART Garancija 5.godina Novo 1.249 KM prije 3 minute" [ref=e1140] [cursor=pointer]:
+              - /url: /artikal/71628089
+              - generic [ref=e1142]:
+                - generic [ref=e1143]:
+                  - generic [ref=e1145]:
+                    - generic [ref=e1146]: OLX SHOP
+                    - img [ref=e1148]
+                  - generic [ref=e1151]: Dostupno odmah
+                  - img "HISENSE TV 75\" 75A6Q 4K UHD SMART Garancija 5.godina" [ref=e1153]
+                - generic [ref=e1154]:
+                  - heading "HISENSE TV 75\" 75A6Q 4K UHD SMART Garancija 5.godina" [level=1] [ref=e1156]
+                  - generic [ref=e1158]: Novo
+                  - generic [ref=e1159]:
+                    - generic [ref=e1161]: 1.249 KM
+                    - generic [ref=e1162]: prije 3 minute
+            - link "OLX SHOP Stanovi Vogošća novogradnja 58 KVM Stanovi Vogošća novogradnja 58 KVM 58 ㎡ trosoban (3) Izdvojeni premium filter Novogradnja 232.000 KM prije 3 minute" [ref=e1164] [cursor=pointer]:
+              - /url: /artikal/72493419
+              - generic [ref=e1166]:
+                - generic [ref=e1167]:
+                  - generic [ref=e1170]: OLX SHOP
+                  - img "Stanovi Vogošća novogradnja 58 KVM" [ref=e1172]
+                - generic [ref=e1173]:
+                  - heading "Stanovi Vogošća novogradnja 58 KVM" [level=1] [ref=e1175]
+                  - generic [ref=e1177]:
+                    - generic [ref=e1178]:
+                      - generic [ref=e1179]: "58"
+                      - text: ㎡
+                    - generic [ref=e1181]: trosoban (3)
+                  - generic [ref=e1183]:
+                    - generic:
+                      - generic: Izdvojeni premium filter
+                    - paragraph [ref=e1184]: Novogradnja
+                  - generic [ref=e1185]:
+                    - generic [ref=e1187]: 232.000 KM
+                    - generic [ref=e1188]: prije 3 minute
+            - link "OLX SHOP Dostupno odmah Škoda Kodiaq 4X4 2.0 TDI Automatik 2021 Škoda Kodiaq 4X4 2.0 TDI Automatik 2021 dizel 190.315 km 2021 45.700 KM 43.700 KM prije 4 minute" [ref=e1190] [cursor=pointer]:
+              - /url: /artikal/68461485
+              - generic [ref=e1192]:
+                - generic [ref=e1193]:
+                  - generic [ref=e1196]: OLX SHOP
+                  - generic [ref=e1198]: Dostupno odmah
+                  - img "Škoda Kodiaq 4X4 2.0 TDI Automatik 2021" [ref=e1200]
+                - generic [ref=e1201]:
+                  - heading "Škoda Kodiaq 4X4 2.0 TDI Automatik 2021" [level=1] [ref=e1203]
+                  - generic [ref=e1205]:
+                    - generic [ref=e1207]: dizel
+                    - generic [ref=e1208]:
+                      - generic [ref=e1209]: "190.315"
+                      - text: km
+                    - generic [ref=e1211]: "2021"
+                  - generic [ref=e1212]:
+                    - generic [ref=e1213]:
+                      - generic [ref=e1214]: 45.700 KM
+                      - generic [ref=e1215]: 43.700 KM
+                    - generic [ref=e1216]: prije 4 minute
+            - link "OLX SHOP 3D umjetnicke slike po narudzbi 3D umjetnicke slike po narudzbi Novo Izdvojeni premium filter PRAZNIČNA AKCIJA 350 KM prije 4 minute" [ref=e1218] [cursor=pointer]:
+              - /url: /artikal/65708304
+              - generic [ref=e1220]:
+                - generic [ref=e1221]:
+                  - generic [ref=e1223]:
+                    - generic [ref=e1224]: OLX SHOP
+                    - img [ref=e1226]
+                    - img [ref=e1229]
+                  - img "3D umjetnicke slike po narudzbi" [ref=e1233]
+                - generic [ref=e1234]:
+                  - heading "3D umjetnicke slike po narudzbi" [level=1] [ref=e1236]
+                  - generic [ref=e1238]: Novo
+                  - generic [ref=e1240]:
+                    - generic:
+                      - generic: Izdvojeni premium filter
+                    - paragraph [ref=e1241]: PRAZNIČNA AKCIJA
+                  - generic [ref=e1242]:
+                    - generic [ref=e1244]: 350 KM
+                    - generic [ref=e1245]: prije 4 minute
+            - link "OLX SHOP Dostupno odmah Porsche Panamera 4 Porsche Panamera 4 benzin 135.000 km 2012 Izdvojeni premium filter Prvi vlasnik Izdvojeni premium filter Bez udesa 62.000 KM prije 4 minute" [ref=e1247] [cursor=pointer]:
+              - /url: /artikal/72248159
+              - generic [ref=e1249]:
+                - generic [ref=e1250]:
+                  - generic [ref=e1252]:
+                    - generic [ref=e1253]: OLX SHOP
+                    - img [ref=e1255]
+                  - generic [ref=e1259]: Dostupno odmah
+                  - img "Porsche Panamera 4" [ref=e1261]
+                - generic [ref=e1262]:
+                  - heading "Porsche Panamera 4" [level=1] [ref=e1264]
+                  - generic [ref=e1266]:
+                    - generic [ref=e1268]: benzin
+                    - generic [ref=e1269]:
+                      - generic [ref=e1270]: "135.000"
+                      - text: km
+                    - generic [ref=e1272]: "2012"
+                  - generic [ref=e1273]:
+                    - generic [ref=e1274]:
+                      - generic:
+                        - generic: Izdvojeni premium filter
+                      - paragraph [ref=e1275]: Prvi vlasnik
+                    - generic [ref=e1276]:
+                      - generic:
+                        - generic: Izdvojeni premium filter
+                      - paragraph [ref=e1277]: Bez udesa
+                  - generic [ref=e1278]:
+                    - generic [ref=e1280]: 62.000 KM
+                    - generic [ref=e1281]: prije 4 minute
+            - link "OLX SHOP B-TECH BM72504 konvektor 2000W B-TECH BM72504 konvektor 2000W Novo 107 KM 77 KM prije 4 minute" [ref=e1283] [cursor=pointer]:
+              - /url: /artikal/71764199
+              - generic [ref=e1285]:
+                - generic [ref=e1286]:
+                  - generic [ref=e1288]:
+                    - generic [ref=e1289]: OLX SHOP
+                    - img [ref=e1291]
+                  - img "B-TECH BM72504 konvektor 2000W" [ref=e1294]
+                - generic [ref=e1295]:
+                  - heading "B-TECH BM72504 konvektor 2000W" [level=1] [ref=e1297]
+                  - generic [ref=e1299]: Novo
+                  - generic [ref=e1300]:
+                    - generic [ref=e1301]:
+                      - generic [ref=e1302]: 107 KM
+                      - generic [ref=e1303]: 77 KM
+                    - generic [ref=e1304]: prije 4 minute
+            - link "Mercedes-Benz C 220 Mercedes-Benz C 220 dizel 370.000 km 2002 2.000 KM prije 4 minute" [ref=e1306] [cursor=pointer]:
+              - /url: /artikal/66976290
+              - generic [ref=e1308]:
+                - img "Mercedes-Benz C 220" [ref=e1311]
+                - generic [ref=e1312]:
+                  - heading "Mercedes-Benz C 220" [level=1] [ref=e1314]
+                  - generic [ref=e1316]:
+                    - generic [ref=e1318]: dizel
+                    - generic [ref=e1319]:
+                      - generic [ref=e1320]: "370.000"
+                      - text: km
+                    - generic [ref=e1322]: "2002"
+                  - generic [ref=e1323]:
+                    - generic [ref=e1325]: 2.000 KM
+                    - generic [ref=e1326]: prije 4 minute
+            - link "OLX SHOP Dostupno odmah Volvo AWD 4x4 XC60 MOMENTUM PRO FULL LED 2.0 dizel automat Volvo AWD 4x4 XC60 MOMENTUM PRO FULL LED 2.0 dizel automat dizel 196.612 km 2021 51.800 KM 49.900 KM prije 4 minute" [ref=e1328] [cursor=pointer]:
+              - /url: /artikal/73174439
+              - generic [ref=e1330]:
+                - generic [ref=e1331]:
+                  - generic [ref=e1334]: OLX SHOP
+                  - generic [ref=e1336]: Dostupno odmah
+                  - img "Volvo AWD 4x4 XC60 MOMENTUM PRO FULL LED 2.0 dizel automat" [ref=e1338]
+                - generic [ref=e1339]:
+                  - heading "Volvo AWD 4x4 XC60 MOMENTUM PRO FULL LED 2.0 dizel automat" [level=1] [ref=e1341]
+                  - generic [ref=e1343]:
+                    - generic [ref=e1345]: dizel
+                    - generic [ref=e1346]:
+                      - generic [ref=e1347]: "196.612"
+                      - text: km
+                    - generic [ref=e1349]: "2021"
+                  - generic [ref=e1350]:
+                    - generic [ref=e1351]:
+                      - generic [ref=e1352]: 51.800 KM
+                      - generic [ref=e1353]: 49.900 KM
+                    - generic [ref=e1354]: prije 4 minute
+            - link "OLX SHOP Dostupno odmah HISENSE TV 65\" 65A6Q 4K UHD SMART Garancija 5.godina HISENSE TV 65\" 65A6Q 4K UHD SMART Garancija 5.godina Novo 849 KM prije 4 minute" [ref=e1356] [cursor=pointer]:
+              - /url: /artikal/71628060
+              - generic [ref=e1358]:
+                - generic [ref=e1359]:
+                  - generic [ref=e1361]:
+                    - generic [ref=e1362]: OLX SHOP
+                    - img [ref=e1364]
+                  - generic [ref=e1367]: Dostupno odmah
+                  - img "HISENSE TV 65\" 65A6Q 4K UHD SMART Garancija 5.godina" [ref=e1369]
+                - generic [ref=e1370]:
+                  - heading "HISENSE TV 65\" 65A6Q 4K UHD SMART Garancija 5.godina" [level=1] [ref=e1372]
+                  - generic [ref=e1374]: Novo
+                  - generic [ref=e1375]:
+                    - generic [ref=e1377]: 849 KM
+                    - generic [ref=e1378]: prije 4 minute
+            - link "OLX SHOP Dostupno odmah Krovni nosaci za karavan galerija w skoda audi passat 967 Krovni nosaci za karavan galerija w skoda audi passat 967 Novo 65 KM prije 4 minute" [ref=e1380] [cursor=pointer]:
+              - /url: /artikal/66219359
+              - generic [ref=e1382]:
+                - generic [ref=e1383]:
+                  - generic [ref=e1385]:
+                    - generic [ref=e1386]: OLX SHOP
+                    - img [ref=e1388]
+                  - generic [ref=e1391]: Dostupno odmah
+                  - img "Krovni nosaci za karavan galerija w skoda audi passat 967" [ref=e1393]
+                - generic [ref=e1394]:
+                  - heading "Krovni nosaci za karavan galerija w skoda audi passat 967" [level=1] [ref=e1396]
+                  - generic [ref=e1398]: Novo
+                  - generic [ref=e1399]:
+                    - generic [ref=e1401]: 65 KM
+                    - generic [ref=e1402]: prije 4 minute
+            - link "OLX SHOP Dostupno odmah 3.6kW klima ZA GRIJANJE Fuji Klime uređaji Inverter R32 3.6kW klima ZA GRIJANJE Fuji Klime uređaji Inverter R32 Novo 545 KM prije 4 minute" [ref=e1404] [cursor=pointer]:
+              - /url: /artikal/53748854
+              - generic [ref=e1406]:
+                - generic [ref=e1407]:
+                  - generic [ref=e1410]: OLX SHOP
+                  - generic [ref=e1412]: Dostupno odmah
+                  - img "3.6kW klima ZA GRIJANJE Fuji Klime uređaji Inverter R32" [ref=e1414]
+                - generic [ref=e1415]:
+                  - heading "3.6kW klima ZA GRIJANJE Fuji Klime uređaji Inverter R32" [level=1] [ref=e1417]
+                  - generic [ref=e1419]: Novo
+                  - generic [ref=e1420]:
+                    - generic [ref=e1422]: 545 KM
+                    - generic [ref=e1423]: prije 4 minute
+            - link "OLX SHOP Dostupno odmah IMOU 5MP Bullet 3 KAMERA NOC U BOJI FULL COLOR VANJSKA IMOU 5MP Bullet 3 KAMERA NOC U BOJI FULL COLOR VANJSKA Novo 149 KM 89 KM prije 5 minuta" [ref=e1425] [cursor=pointer]:
+              - /url: /artikal/72946031
+              - generic [ref=e1427]:
+                - generic [ref=e1428]:
+                  - generic [ref=e1430]:
+                    - generic [ref=e1431]: OLX SHOP
+                    - img [ref=e1433]
+                  - generic [ref=e1436]: Dostupno odmah
+                  - img "IMOU 5MP Bullet 3 KAMERA NOC U BOJI FULL COLOR VANJSKA" [ref=e1438]
+                - generic [ref=e1439]:
+                  - heading "IMOU 5MP Bullet 3 KAMERA NOC U BOJI FULL COLOR VANJSKA" [level=1] [ref=e1441]
+                  - generic [ref=e1443]: Novo
+                  - generic [ref=e1444]:
+                    - generic [ref=e1445]:
+                      - generic [ref=e1446]: 149 KM
+                      - generic [ref=e1447]: 89 KM
+                    - generic [ref=e1448]: prije 5 minuta
+            - link "OLX SHOP Dostupno odmah Prodajem Volvo XC 60 D5 4x4 automatic 2015 Švicarska Prodajem Volvo XC 60 D5 4x4 automatic 2015 Švicarska dizel 240.000 km 2015 33.900 KM prije 5 minuta" [ref=e1450] [cursor=pointer]:
+              - /url: /artikal/65425657
+              - generic [ref=e1452]:
+                - generic [ref=e1453]:
+                  - generic [ref=e1456]: OLX SHOP
+                  - generic [ref=e1458]: Dostupno odmah
+                  - img "Prodajem Volvo XC 60 D5 4x4 automatic 2015 Švicarska" [ref=e1460]
+                - generic [ref=e1461]:
+                  - heading "Prodajem Volvo XC 60 D5 4x4 automatic 2015 Švicarska" [level=1] [ref=e1463]
+                  - generic [ref=e1465]:
+                    - generic [ref=e1467]: dizel
+                    - generic [ref=e1468]:
+                      - generic [ref=e1469]: "240.000"
+                      - text: km
+                    - generic [ref=e1471]: "2015"
+                  - generic [ref=e1472]:
+                    - generic [ref=e1474]: 33.900 KM
+                    - generic [ref=e1475]: prije 5 minuta
+            - link "VOLVO FM VOLVO FM 1.000.000 km 2008 50.000 KM prije 5 minuta" [ref=e1477] [cursor=pointer]:
+              - /url: /artikal/71202706
+              - generic [ref=e1479]:
+                - img "VOLVO FM" [ref=e1482]
+                - generic [ref=e1483]:
+                  - heading "VOLVO FM" [level=1] [ref=e1485]
+                  - generic [ref=e1487]:
+                    - generic [ref=e1488]:
+                      - generic [ref=e1489]: 1.000.000
+                      - text: km
+                    - generic [ref=e1491]: "2008"
+                  - generic [ref=e1492]:
+                    - generic [ref=e1494]: 50.000 KM
+                    - generic [ref=e1495]: prije 5 minuta
+            - link "OLX SHOP ON-GRID SOLARNA ELEKTRANA KOMPLET 6kW ON-GRID SOLARNA ELEKTRANA KOMPLET 6kW 4.039 KM prije 5 minuta" [ref=e1497] [cursor=pointer]:
+              - /url: /artikal/72713680
+              - generic [ref=e1499]:
+                - generic [ref=e1500]:
+                  - generic [ref=e1503]: OLX SHOP
+                  - img "ON-GRID SOLARNA ELEKTRANA KOMPLET 6kW" [ref=e1505]
+                - generic [ref=e1506]:
+                  - heading "ON-GRID SOLARNA ELEKTRANA KOMPLET 6kW" [level=1] [ref=e1508]
+                  - generic [ref=e1510]:
+                    - generic [ref=e1512]: 4.039 KM
+                    - generic [ref=e1513]: prije 5 minuta
+            - link "OLX SHOP Dostupno odmah Samsung Galaxy A17 4+128GB Samsung Galaxy A17 4+128GB Novo 305 KM prije 5 minuta" [ref=e1515] [cursor=pointer]:
+              - /url: /artikal/71855754
+              - generic [ref=e1517]:
+                - generic [ref=e1518]:
+                  - generic [ref=e1520]:
+                    - generic [ref=e1521]: OLX SHOP
+                    - img [ref=e1523]
+                  - generic [ref=e1526]: Dostupno odmah
+                  - img "Samsung Galaxy A17 4+128GB" [ref=e1528]
+                - generic [ref=e1529]:
+                  - heading "Samsung Galaxy A17 4+128GB" [level=1] [ref=e1531]
+                  - generic [ref=e1533]: Novo
+                  - generic [ref=e1534]:
+                    - generic [ref=e1536]: 305 KM
+                    - generic [ref=e1537]: prije 5 minuta
+            - link "OLX SHOP Renault Megane 1.5 DCI 2022/23. god. NEW MODEL LED FAROVI Renault Megane 1.5 DCI 2022/23. god. NEW MODEL LED FAROVI dizel 144.000 km 2022 Na upit prije 5 minuta" [ref=e1539] [cursor=pointer]:
+              - /url: /artikal/73050223
+              - generic [ref=e1541]:
+                - generic [ref=e1542]:
+                  - generic [ref=e1545]: OLX SHOP
+                  - img "Renault Megane 1.5 DCI 2022/23. god. NEW MODEL LED FAROVI" [ref=e1547]
+                - generic [ref=e1548]:
+                  - heading "Renault Megane 1.5 DCI 2022/23. god. NEW MODEL LED FAROVI" [level=1] [ref=e1550]
+                  - generic [ref=e1552]:
+                    - generic [ref=e1554]: dizel
+                    - generic [ref=e1555]:
+                      - generic [ref=e1556]: "144.000"
+                      - text: km
+                    - generic [ref=e1558]: "2022"
+                  - generic [ref=e1559]:
+                    - generic [ref=e1561]: Na upit
+                    - generic [ref=e1562]: prije 5 minuta
+            - link "OLX SHOP Dostupno odmah KAMINI - PRODAJA, IZRADA I MONTAZA KAMINA, KAMEN KAMINI - PRODAJA, IZRADA I MONTAZA KAMINA, KAMEN Novo Na upit prije 6 minuta" [ref=e1564] [cursor=pointer]:
+              - /url: /artikal/6264561
+              - generic [ref=e1566]:
+                - generic [ref=e1567]:
+                  - generic [ref=e1569]:
+                    - generic [ref=e1570]: OLX SHOP
+                    - img [ref=e1572]
+                  - generic [ref=e1576]: Dostupno odmah
+                  - img "KAMINI - PRODAJA, IZRADA I MONTAZA KAMINA, KAMEN" [ref=e1578]
+                - generic [ref=e1579]:
+                  - heading "KAMINI - PRODAJA, IZRADA I MONTAZA KAMINA, KAMEN" [level=1] [ref=e1581]
+                  - generic [ref=e1583]: Novo
+                  - generic [ref=e1584]:
+                    - generic [ref=e1586]: Na upit
+                    - generic [ref=e1587]: prije 6 minuta
+            - link "OLX SHOP Dostupno odmah OPEL ZAFIRA 2.0 CDTI 121KW 7 SJEDALA UVOZ CH OPEL ZAFIRA 2.0 CDTI 121KW 7 SJEDALA UVOZ CH dizel 230.000 km 2012 12.900 KM prije 2 minute" [ref=e1589] [cursor=pointer]:
+              - /url: /artikal/72594592
+              - generic [ref=e1591]:
+                - generic [ref=e1592]:
+                  - generic [ref=e1595]: OLX SHOP
+                  - generic [ref=e1597]: Dostupno odmah
+                  - img "OPEL ZAFIRA 2.0 CDTI 121KW 7 SJEDALA UVOZ CH" [ref=e1599]
+                - generic [ref=e1600]:
+                  - heading "OPEL ZAFIRA 2.0 CDTI 121KW 7 SJEDALA UVOZ CH" [level=1] [ref=e1602]
+                  - generic [ref=e1604]:
+                    - generic [ref=e1606]: dizel
+                    - generic [ref=e1607]:
+                      - generic [ref=e1608]: "230.000"
+                      - text: km
+                    - generic [ref=e1610]: "2012"
+                  - generic [ref=e1611]:
+                    - generic [ref=e1613]: 12.900 KM
+                    - generic [ref=e1614]: prije 2 minute
+            - link "OLX SHOP NOVO! Ingersoll-Rand AKU 1\" udarni zatezač/odvijač NOVO! Ingersoll-Rand AKU 1\" udarni zatezač/odvijač Novo Na upit prije 2 minute" [ref=e1616] [cursor=pointer]:
+              - /url: /artikal/44234354
+              - generic [ref=e1618]:
+                - generic [ref=e1619]:
+                  - generic [ref=e1622]: OLX SHOP
+                  - img "NOVO! Ingersoll-Rand AKU 1\" udarni zatezač/odvijač" [ref=e1624]
+                - generic [ref=e1625]:
+                  - heading "NOVO! Ingersoll-Rand AKU 1\" udarni zatezač/odvijač" [level=1] [ref=e1627]
+                  - generic [ref=e1629]: Novo
+                  - generic [ref=e1630]:
+                    - generic [ref=e1632]: Na upit
+                    - generic [ref=e1633]: prije 2 minute
+            - link "OLX SHOP Polovna mehanička oprema Polovna mehanička oprema Na upit prije 2 minute" [ref=e1635] [cursor=pointer]:
+              - /url: /artikal/72814410
+              - generic [ref=e1637]:
+                - generic [ref=e1638]:
+                  - generic [ref=e1641]: OLX SHOP
+                  - img "Polovna mehanička oprema" [ref=e1643]
+                - generic [ref=e1644]:
+                  - heading "Polovna mehanička oprema" [level=1] [ref=e1646]
+                  - generic [ref=e1648]:
+                    - generic [ref=e1650]: Na upit
+                    - generic [ref=e1651]: prije 2 minute
+            - link "OLX SHOP Dostupno odmah Ford Ka+ 1.2 63KW 190..000km! ALU, MF-VOLAN 2018 Ford Ka+ 1.2 63KW 190..000km! ALU, MF-VOLAN 2018 benzin 190.000 km 2018 Izdvojeni premium filter Garancija Izdvojeni premium filter Bez udesa 15.999 KM prije 2 minute" [ref=e1653] [cursor=pointer]:
+              - /url: /artikal/72667214
+              - generic [ref=e1655]:
+                - generic [ref=e1656]:
+                  - generic [ref=e1659]: OLX SHOP
+                  - generic [ref=e1661]: Dostupno odmah
+                  - img "Ford Ka+ 1.2 63KW 190..000km! ALU, MF-VOLAN 2018" [ref=e1663]
+                - generic [ref=e1664]:
+                  - heading "Ford Ka+ 1.2 63KW 190..000km! ALU, MF-VOLAN 2018" [level=1] [ref=e1666]
+                  - generic [ref=e1668]:
+                    - generic [ref=e1670]: benzin
+                    - generic [ref=e1671]:
+                      - generic [ref=e1672]: "190.000"
+                      - text: km
+                    - generic [ref=e1674]: "2018"
+                  - generic [ref=e1675]:
+                    - generic [ref=e1676]:
+                      - generic:
+                        - generic: Izdvojeni premium filter
+                      - paragraph [ref=e1677]: Garancija
+                    - generic [ref=e1678]:
+                      - generic:
+                        - generic: Izdvojeni premium filter
+                      - paragraph [ref=e1679]: Bez udesa
+                  - generic [ref=e1680]:
+                    - generic [ref=e1682]: 15.999 KM
+                    - generic [ref=e1683]: prije 2 minute
+          - button "Prikaži više oglasa" [ref=e1685] [cursor=pointer]:
+            - paragraph [ref=e1687]: Prikaži više oglasa
+      - generic [ref=e1689]:
+        - generic [ref=e1690]:
+          - heading "Otvorite OLX shop." [level=2] [ref=e1691]
+          - heading "Promovišite vaš biznis i maksimizirajte prihode uz minimalan utrošak energije." [level=3] [ref=e1692]
+        - button "Pogledaj pakete" [ref=e1693] [cursor=pointer]:
+          - paragraph [ref=e1695]: Pogledaj pakete
+      - list [ref=e1698]:
+        - listitem [ref=e1699]: "Popularne kategorije:"
+      - generic [ref=e1701]:
+        - heading "Prijavite se na naš newsletter" [level=3] [ref=e1702]
+        - generic [ref=e1703]:
+          - generic [ref=e1704]:
+            - generic:
+              - img
+            - textbox "unesite email adresu" [ref=e1705]
+          - button "Prijavi se" [ref=e1706] [cursor=pointer]
+        - generic [ref=e1707]:
+          - link [ref=e1708] [cursor=pointer]:
+            - /url: https://www.instagram.com/olxba/
+            - img [ref=e1709]
+          - link [ref=e1711] [cursor=pointer]:
+            - /url: https://www.facebook.com/OLX.ba
+            - img [ref=e1712]
+          - link [ref=e1714] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@olx.ba
+            - img [ref=e1715]
+          - link [ref=e1717] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/olx-bih/
+            - img [ref=e1718]
+    - generic [ref=e1720]:
+      - generic [ref=e1721]:
+        - list [ref=e1722]:
+          - listitem [ref=e1723]: INFORMACIJE I KONTAKT
+          - listitem [ref=e1724]:
+            - link "O nama" [ref=e1725] [cursor=pointer]:
+              - /url: https://pomoc.olx.ba/hc/bs/articles/211257409
+          - listitem [ref=e1726]:
+            - link "Uslovi korištenja" [ref=e1727] [cursor=pointer]:
+              - /url: /o-olxu/uslovi-koristenja
+          - listitem [ref=e1728]:
+            - link "Online sigurnost" [ref=e1729] [cursor=pointer]:
+              - /url: /o-olxu/online-sigurnost
+          - listitem [ref=e1730]:
+            - link "Marketing" [ref=e1731] [cursor=pointer]:
+              - /url: https://marketing.olx.ba/
+        - list [ref=e1732]:
+          - listitem [ref=e1733]: OSTALI LINKOVI
+          - listitem [ref=e1734]:
+            - link "OLX.ba blog" [ref=e1735] [cursor=pointer]:
+              - /url: https://blog.olx.ba/
+          - listitem [ref=e1736]:
+            - link "Shopovi" [ref=e1737] [cursor=pointer]:
+              - /url: /shopovi
+          - listitem [ref=e1738]:
+            - link "Pridruži se OLX timu" [ref=e1739] [cursor=pointer]:
+              - /url: https://www.joinolx.com/careers/search
+          - listitem [ref=e1740]:
+            - link "Šta je OLX dostava" [ref=e1741] [cursor=pointer]:
+              - /url: /o-olxu/sta-je-olx-brza-dostava
+        - list [ref=e1742]:
+          - listitem [ref=e1743]: VAŠ OLX
+          - listitem [ref=e1744]:
+            - link "OLX kredit" [ref=e1745] [cursor=pointer]:
+              - /url: /o-olxu/olxkredit
+          - listitem [ref=e1746]:
+            - link "Sigurnost i zaštita" [ref=e1747] [cursor=pointer]:
+              - /url: https://blog.olx.ba/2015/04/24/zlatna-pravila-za-vasu-sigurnost-na-olx-ba/
+          - listitem [ref=e1748]:
+            - link "Privatnost podataka" [ref=e1749] [cursor=pointer]:
+              - /url: /o-olxu/privatnost-podataka
+        - list [ref=e1750]:
+          - listitem [ref=e1751]:
+            - link "Podrška korisnicima" [ref=e1752] [cursor=pointer]:
+              - /url: https://pomoc.olx.ba/hc/bs
+        - list [ref=e1753]:
+          - listitem [ref=e1754]:
+            - link "appstore" [ref=e1755] [cursor=pointer]:
+              - /url: https://apps.apple.com/us/app/id1037978542
+              - img "appstore" [ref=e1756]
+          - listitem [ref=e1757]:
+            - link "googlestore" [ref=e1758] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=ba.pik.v2.android
+              - img "googlestore" [ref=e1759]
+      - paragraph [ref=e1761]: Copyright © 2009 - 2026 Pik d.o.o. Sva prava zadržana.
+  - img
+```

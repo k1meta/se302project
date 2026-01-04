@@ -1,0 +1,159 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - link "OLX.ba" [ref=e12] [cursor=pointer]:
+              - /url: /
+              - img "olx-logo" [ref=e13]
+            - list [ref=e15]:
+              - listitem [ref=e16]:
+                - link "Početna" [ref=e17] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e18]:
+                - link "Kategorije" [active] [ref=e19] [cursor=pointer]:
+                  - /url: /kategorije
+              - listitem [ref=e20]:
+                - link "Shopovi" [ref=e21] [cursor=pointer]:
+                  - /url: /shopovi
+              - listitem [ref=e22]:
+                - link "Marketing" [ref=e23] [cursor=pointer]:
+                  - /url: https://marketing.olx.ba/
+              - listitem [ref=e24]:
+                - link "Blog" [ref=e25] [cursor=pointer]:
+                  - /url: https://blog.olx.ba/
+              - listitem [ref=e26]:
+                - button "Ostali linkovi" [ref=e27] [cursor=pointer]
+              - listitem [ref=e28]:
+                - button "Objavi oglas" [ref=e29] [cursor=pointer]:
+                  - img [ref=e30]
+                  - text: Objavi oglas
+          - generic [ref=e32]:
+            - link "prijava" [ref=e33] [cursor=pointer]:
+              - /url: /login
+              - text: Prijavi se
+            - link "registracija" [ref=e34] [cursor=pointer]:
+              - /url: /register
+              - text: Registracija
+        - generic [ref=e35]:
+          - searchbox "Pretraga" [ref=e38]
+          - button "button-image Objavi oglas" [ref=e40] [cursor=pointer]:
+            - generic [ref=e41]:
+              - img "button-image" [ref=e42]
+              - paragraph [ref=e43]: Objavi oglas
+    - generic [ref=e45]:
+      - generic [ref=e46]:
+        - generic [ref=e48]:
+          - img "skeleton-card" [ref=e49]
+          - img "skeleton-card" [ref=e50]
+          - img "skeleton-card" [ref=e51]
+          - img "skeleton-card" [ref=e52]
+          - img "skeleton-card" [ref=e53]
+          - img "skeleton-card" [ref=e54]
+          - img "skeleton-card" [ref=e55]
+          - img "skeleton-card" [ref=e56]
+          - img "skeleton-card" [ref=e57]
+          - img "skeleton-card" [ref=e58]
+          - img "skeleton-card" [ref=e59]
+          - img "skeleton-card" [ref=e60]
+          - img "skeleton-card" [ref=e61]
+          - img "skeleton-card" [ref=e62]
+        - generic [ref=e63]:
+          - generic [ref=e64]:
+            - heading "Izdvojeni oglasi" [level=2] [ref=e65]
+            - button "button-image Filtriraj izdvojene oglase" [ref=e66] [cursor=pointer]:
+              - generic [ref=e67]:
+                - img "button-image" [ref=e68]
+                - paragraph [ref=e69]: Filtriraj izdvojene oglase
+          - button "Prikaži više oglasa" [ref=e73] [cursor=pointer]:
+            - paragraph [ref=e75]: Prikaži više oglasa
+      - generic [ref=e77]:
+        - generic [ref=e78]:
+          - heading "Otvorite OLX shop." [level=2] [ref=e79]
+          - heading "Promovišite vaš biznis i maksimizirajte prihode uz minimalan utrošak energije." [level=3] [ref=e80]
+        - button "Pogledaj pakete" [ref=e81] [cursor=pointer]:
+          - paragraph [ref=e83]: Pogledaj pakete
+      - list [ref=e86]:
+        - listitem [ref=e87]: "Popularne kategorije:"
+      - generic [ref=e89]:
+        - heading "Prijavite se na naš newsletter" [level=3] [ref=e90]
+        - generic [ref=e91]:
+          - generic [ref=e92]:
+            - generic:
+              - img
+            - textbox "unesite email adresu" [ref=e93]
+          - button "Prijavi se" [ref=e94] [cursor=pointer]
+        - generic [ref=e95]:
+          - link [ref=e96] [cursor=pointer]:
+            - /url: https://www.instagram.com/olxba/
+            - img [ref=e97]
+          - link [ref=e99] [cursor=pointer]:
+            - /url: https://www.facebook.com/OLX.ba
+            - img [ref=e100]
+          - link [ref=e102] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@olx.ba
+            - img [ref=e103]
+          - link [ref=e105] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/olx-bih/
+            - img [ref=e106]
+    - generic [ref=e108]:
+      - generic [ref=e109]:
+        - list [ref=e110]:
+          - listitem [ref=e111]: INFORMACIJE I KONTAKT
+          - listitem [ref=e112]:
+            - link "O nama" [ref=e113] [cursor=pointer]:
+              - /url: https://pomoc.olx.ba/hc/bs/articles/211257409
+          - listitem [ref=e114]:
+            - link "Uslovi korištenja" [ref=e115] [cursor=pointer]:
+              - /url: /o-olxu/uslovi-koristenja
+          - listitem [ref=e116]:
+            - link "Online sigurnost" [ref=e117] [cursor=pointer]:
+              - /url: /o-olxu/online-sigurnost
+          - listitem [ref=e118]:
+            - link "Marketing" [ref=e119] [cursor=pointer]:
+              - /url: https://marketing.olx.ba/
+        - list [ref=e120]:
+          - listitem [ref=e121]: OSTALI LINKOVI
+          - listitem [ref=e122]:
+            - link "OLX.ba blog" [ref=e123] [cursor=pointer]:
+              - /url: https://blog.olx.ba/
+          - listitem [ref=e124]:
+            - link "Shopovi" [ref=e125] [cursor=pointer]:
+              - /url: /shopovi
+          - listitem [ref=e126]:
+            - link "Pridruži se OLX timu" [ref=e127] [cursor=pointer]:
+              - /url: https://www.joinolx.com/careers/search
+          - listitem [ref=e128]:
+            - link "Šta je OLX dostava" [ref=e129] [cursor=pointer]:
+              - /url: /o-olxu/sta-je-olx-brza-dostava
+        - list [ref=e130]:
+          - listitem [ref=e131]: VAŠ OLX
+          - listitem [ref=e132]:
+            - link "OLX kredit" [ref=e133] [cursor=pointer]:
+              - /url: /o-olxu/olxkredit
+          - listitem [ref=e134]:
+            - link "Sigurnost i zaštita" [ref=e135] [cursor=pointer]:
+              - /url: https://blog.olx.ba/2015/04/24/zlatna-pravila-za-vasu-sigurnost-na-olx-ba/
+          - listitem [ref=e136]:
+            - link "Privatnost podataka" [ref=e137] [cursor=pointer]:
+              - /url: /o-olxu/privatnost-podataka
+        - list [ref=e138]:
+          - listitem [ref=e139]:
+            - link "Podrška korisnicima" [ref=e140] [cursor=pointer]:
+              - /url: https://pomoc.olx.ba/hc/bs
+        - list [ref=e141]:
+          - listitem:
+            - link "appstore":
+              - /url: https://apps.apple.com/us/app/id1037978542
+              - img "appstore"
+          - listitem [ref=e142]:
+            - link "googlestore" [ref=e143] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=ba.pik.v2.android
+              - img "googlestore" [ref=e144]
+      - paragraph [ref=e146]: Copyright © 2009 - 2026 Pik d.o.o. Sva prava zadržana.
+  - img
+```

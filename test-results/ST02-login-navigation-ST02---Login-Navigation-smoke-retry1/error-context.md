@@ -1,0 +1,43 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - dialog "Privacy" [active] [ref=e3]:
+    - generic [ref=e6]:
+      - figure [ref=e8]:
+        - heading "Poštujemo vašu privatnost" [level=2] [ref=e9]
+      - button "NE SLAŽEM SE" [ref=e11] [cursor=pointer]
+      - generic [ref=e13]:
+        - text: Mi i naši
+        - button "partneri" [ref=e14] [cursor=pointer]
+        - text: pohranjujemo i/ili pristupamo informacijama na uređaju, poput kolačića, i obrađujemo osobne podatke, poput jedinstvenih identifikatora i standardnih informacija koje uređaj šalje za personalizirano oglašavanje i sadržaj, mjerenje oglasa i sadržaja, istraživanje publike i razvoj usluga. Uz vaše dopuštenje, mi i naši partneri možemo upotrebljavati precizne podatke o geolokaciji i identifikaciji skeniranjem uređaja. Možete kliknuti za davanje privole nama i našim 1553 partnerima za obradu, u skladu s gornjim opisom. U suprotnom, možete kliknuti za odbijanje davanja privole ili pristupiti detaljnijim informacijama i promijeniti svoje preferencije prije davanja privole. Imajte na umu da za neke obrade vaših osobnih podataka možda neće trebati vaša privola, no imate pravo na prigovor na takvu obradu. Vaše postavke primjenjivat će se samo na ovu web stranicu i bit će pohranjene 13 mjeseci u IABGPP_HDR_GppString cookie. Možete promijeniti svoje postavke ili povući svoj pristanak u bilo kojem trenutku vraćanjem na ovu stranicu i klikom na gumb "Privatnost" na dnu web stranice.
+    - generic [ref=e16]:
+      - button "VIŠE MOGUĆNOSTI" [ref=e17] [cursor=pointer]:
+        - generic [ref=e18]: VIŠE MOGUĆNOSTI
+      - button "NE SLAŽEM SE" [ref=e19] [cursor=pointer]:
+        - generic [ref=e20]: NE SLAŽEM SE
+      - button "SLAŽEM SE" [ref=e21] [cursor=pointer]:
+        - generic [ref=e22]: SLAŽEM SE
+  - generic [ref=e29]:
+    - link "OLX.ba" [ref=e30] [cursor=pointer]:
+      - /url: /
+      - img "olx-logo" [ref=e31]
+    - generic [ref=e32]:
+      - heading "Prijava" [level=1] [ref=e33]
+      - generic [ref=e34]:
+        - heading "Korisničko ime ili email" [level=2] [ref=e36]
+        - textbox [ref=e38]
+      - generic [ref=e39]:
+        - heading "Šifra" [level=2] [ref=e41]
+        - textbox [ref=e43]
+      - link "forgot-password" [ref=e46] [cursor=pointer]:
+        - /url: /zaboravljenasifra
+        - text: Zaboravili ste šifru?
+      - button "Prijavi se" [ref=e47] [cursor=pointer]:
+        - paragraph [ref=e49]: Prijavi se
+    - generic [ref=e52]:
+      - text: Nemate korisnički račun?
+      - link "REGISTRUJ SE" [ref=e53] [cursor=pointer]:
+        - /url: /register
+  - img
+```

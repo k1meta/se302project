@@ -1,0 +1,11 @@
+const { defineConfig } = require("@playwright/test");
+
+module.exports = defineConfig({
+  testDir: "./tests",
+  testMatch: "**/*.spec.js",
+  use: {
+    baseURL: "https://olx.ba",
+    headless: true,
+  },
+  retries: 1,
+});
