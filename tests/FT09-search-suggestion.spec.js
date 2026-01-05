@@ -16,5 +16,5 @@ test("FT09 - Search Suggestion @functional", async ({ page }) => {
   await page.waitForTimeout(1000);
 
   // 3. Verify dropdown
-  await search.assertSuggestionsVisible();
+  await search.assertSuggestionVisible();
 });
