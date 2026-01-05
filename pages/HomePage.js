@@ -59,7 +59,7 @@ this.helpLinkAny = page
 
   async open() {
     await this.page.goto("/", { waitUntil: "domcontentloaded" });
-  }
+  } 
 
   async assertPageIsUp() {
     await expect(this.page).not.toHaveURL(/404|error/i);
@@ -166,6 +166,17 @@ async search(term) {
 }
 
  
+  async rejectCookies() {
+  try {
+    const rejectButton = this.page.locator('#disagree-btn');
+    await rejectButton.waitFor({ state: 'visible', timeout: 5000 });
+    await rejectButton.click({ force: true });
+    await this.page.waitForTimeout(500); // Wait for popup to close
+  } catch (error) {
+    // Cookie popup didn't appear, continue test
+    console.log('Cookie popup not found, continuing...');
+  }
+}
 }
 
 module.exports = { HomePage };
