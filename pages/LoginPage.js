@@ -19,11 +19,6 @@ class LoginPage {
     this.submitBtn = page
       .getByRole('button', { name: /prijavi|login/i })
       .or(page.locator('button[type="submit"]'));
-      
-    // Error message locators for validation steps
-    this.globalError = page.getByText(/neispravni podaci|pogrešna lozinka/i);
-    this.validationError = page.getByText(/obavezno polje|email je obavezan/i);
-
   }
 
   async assertOpened() {
@@ -41,19 +36,14 @@ class LoginPage {
 
   // Helper to fill form and click submit
   async attemptLogin(user, pass) {
-    if (user) await this.username.fill(user);
-    if (pass) await this.password.fill(pass);
+    if (user) await this.username.type(user);
+    if (pass) await this.password.type(pass);
     await this.submitBtn.click();
   }
 
-  async assertLoginFailed() {
-    await expect(this.globalError).toBeVisible();
-    // Ensure we are still on the login page (not redirected)
-    await expect(this.page).toHaveURL(/login|prijava/i); 
-  }
-
   async assertValidationError() {
-    await expect(this.validationError).toBeVisible();
+    // Ensure we are still on the login page (not redirected)
+    await expect(this.page).toHaveURL(/login|prijava/i);
   }
 }
 

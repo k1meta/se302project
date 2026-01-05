@@ -80,10 +80,16 @@ class HomePage {
   }
 
   async rejectCookies() {
+  try {
     const rejectButton = this.page.locator('#disagree-btn');
-    await rejectButton.waitFor({ state: 'attached', timeout: 5000 });
+    await rejectButton.waitFor({ state: 'visible', timeout: 5000 });
     await rejectButton.click({ force: true });
+    await this.page.waitForTimeout(500); // Wait for popup to close
+  } catch (error) {
+    // Cookie popup didn't appear, continue test
+    console.log('Cookie popup not found, continuing...');
   }
+}
 }
 
 module.exports = { HomePage };

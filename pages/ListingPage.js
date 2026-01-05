@@ -4,7 +4,7 @@ class ListingPage {
   constructor(page) {
     this.page = page;
     
-    this.listingTitle = page.locator('h1.display-title, h1.artikal-naslov');
+    this.listingTitle = page.locator('h1').first();
     
     // "Prikaži broj telefona" button
     this.showPhoneBtn = page.getByRole('button', { name: /prikaži broj|prikazi broj/i })

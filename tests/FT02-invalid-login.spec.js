@@ -7,7 +7,7 @@ test("FT02 - Invalid Login (Redone) @functional", async ({ page }) => {
   const login = new LoginPage(page);
   // 1. Navigate to Login Page
   await home.open();
-  await homePage.rejectCookies();
+  await HomePage.rejectCookies();
   await home.goToLogin();
   await login.assertOpenedUrl();
 

@@ -12,9 +12,9 @@ test("FT04 - Price Boundary Filter @functional", async ({ page }) => {
   // 1. Search "Laptop"
   await search.performSearch("Laptop");
 
-  // 2. Set Min: 1000, Max: 2000
-  await search.setPriceFilter(1000, 2000);
+  // 2. Set Min: 500, Max: 1500
+  await search.setPriceFilter(500, 1500);
 
   // 3. Verify Refresh and Price Range
-  await search.assertPricesWithinRange(1000, 2000);
+  await search.assertPricesWithinRange(500, 1500);
 });
