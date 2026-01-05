@@ -38,7 +38,7 @@ class HomePage {
 
   async open() {
     await this.page.goto("/", { waitUntil: "domcontentloaded" });
-  }
+  } 
 
   async assertPageIsUp() {
     await expect(this.kategorije).toBeVisible({ timeout: 10000 });
@@ -77,6 +77,12 @@ class HomePage {
     await expect(this.pomocLink).toBeVisible({ timeout: 10000 });
     await this.pomocLink.click();
     await expect(this.page).toHaveURL(/pomoc\.olx\.ba|olx\.ba/i, { timeout: 10000 });
+  }
+
+  async rejectCookies() {
+    const rejectButton = this.page.locator('#disagree-btn');
+    await rejectButton.waitFor({ state: 'attached', timeout: 5000 });
+    await rejectButton.click({ force: true });
   }
 }
 
