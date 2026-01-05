@@ -1,21 +1,23 @@
 const { test } = require("@playwright/test");
-const { HomePage } = require("../pages/HomePage");
 const { dismissConsentIfPresent } = require("../utils/consent");
+const { HomePage } = require("../pages/HomePage");
+const { ListingPage } = require("../pages/ListingPage");
 
 test.beforeEach(async ({ page }) => {
   await page.goto("/", { waitUntil: "domcontentloaded" });
   await dismissConsentIfPresent(page);
 });
 
-test("ST04 - Category List Load @smoke", async ({ page }) => {
+test("FT06 - Guest Favorite Attempt @functional", async ({ page }) => {
   const home = new HomePage(page);
+  const listing = new ListingPage(page);
 
   await home.open();
   await dismissConsentIfPresent(page);
 
-  await home.openCategories();
+  await home.openFirstListingFromHome();
   await dismissConsentIfPresent(page);
 
-  await home.assertCategoriesLoaded(5);
-  await page.mouse.wheel(0, 1200);
+  await listing.attemptFavorite();
+  await listing.assertRedirectedToLogin();
 });
