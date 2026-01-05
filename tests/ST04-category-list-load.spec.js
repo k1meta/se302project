@@ -1,21 +1,12 @@
 const { test } = require("@playwright/test");
 const { HomePage } = require("../pages/HomePage");
-const { dismissConsentIfPresent } = require("../utils/consent");
-
-test.beforeEach(async ({ page }) => {
-  await page.goto("/", { waitUntil: "domcontentloaded" });
-  await dismissConsentIfPresent(page);
-});
 
 test("ST04 - Category List Load @smoke", async ({ page }) => {
   const home = new HomePage(page);
 
   await home.open();
-  await dismissConsentIfPresent(page);
-
   await home.openCategories();
-  await dismissConsentIfPresent(page);
-
   await home.assertCategoriesLoaded(5);
+
   await page.mouse.wheel(0, 1200);
 });
