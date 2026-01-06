@@ -1,10 +1,14 @@
 const { test, expect } = require("@playwright/test");
 const { HomePage } = require("../pages/HomePage");
 const { LoginPage } = require("../pages/LoginPage");
+const { CloudFlarePage } = require("../pages/CloudFlarePage");
 
-test("FT03 - Empty Input Login (Redone) @functional", async ({ page }) => {
+test("FT03 - Empty Input Login @functional", async ({ page }) => {
   const home = new HomePage(page);
   const login = new LoginPage(page);
+  const cloudFlarePage = new CloudFlarePage(page);
+  await cloudFlarePage.handleCloudFlareIfPresent();
+
 
   await home.open();
   await home.rejectCookies();
@@ -15,5 +19,5 @@ test("FT03 - Empty Input Login (Redone) @functional", async ({ page }) => {
   await login.attemptLogin("", "");
 
   // Verify Validation Message appears
-  await login.assertValidationError();
+  await login.assertValidationError_EmptyInputLogin();
 });

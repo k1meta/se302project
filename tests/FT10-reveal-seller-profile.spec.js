@@ -4,7 +4,7 @@ const { SearchPage } = require("../pages/SearchPage");
 const { ListingPage } = require("../pages/ListingPage");
 const { CloudFlarePage } = require("../pages/CloudFlarePage");
 
-test("FT05 - Detail Redirection @functional", async ({ page }) => {
+test("FT10 - Reveal Seller Profile @functional", async ({ page }) => {
   const home = new HomePage(page);
   const search = new SearchPage(page);
   const listing = new ListingPage(page);
@@ -16,12 +16,15 @@ test("FT05 - Detail Redirection @functional", async ({ page }) => {
   await home.open();
   await home.rejectCookies();
 
-  // 1. Search for something to get results
-  await search.performSearch("Bicikl");
+  // 1. Open any ad (Search -> Click)
+  await search.performSearch("Telefon");
+  await search.clickFirstResult();
 
-  // 2. Click first item and get its title from the list
-  const expectedTitle = await search.clickFirstResult();
+  // 2. Click on user profile
+  await listing.clickOnSellerProfile();
 
-  // 3. Observe title on new page
-  await listing.assertTitleMatches(expectedTitle);
+  // 3. Assert redirection to seller profile page
+  await listing.assertSellerProfile();
+
+  // Pass/Fail is handled inside assertSellerProfile assertion
 });

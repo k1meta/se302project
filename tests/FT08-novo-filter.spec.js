@@ -1,22 +1,19 @@
 const { test } = require("@playwright/test");
-const { dismissConsentIfPresent } = require("../utils/consent");
 const { HomePage } = require("../pages/HomePage");
 const { SearchResultsPage } = require("../pages/SearchResultsPage");
-
-test.beforeEach(async ({ page }) => {
-  await page.goto("/", { waitUntil: "domcontentloaded" });
-  await dismissConsentIfPresent(page);
-});
+const { CloudFlarePage } = require("../pages/CloudFlarePage");
 
 test('FT08 - "Novo" Filter @functional', async ({ page }) => {
   const home = new HomePage(page);
   const results = new SearchResultsPage(page);
+  const cloudFlarePage = new CloudFlarePage(page);
+  await cloudFlarePage.handleCloudFlareIfPresent();
+
 
   await home.open();
-  await dismissConsentIfPresent(page);
+  await home.rejectCookies();
 
   await home.search("Televizor");
-  await dismissConsentIfPresent(page);
 
   await results.applyConditionNovo();
   await results.assertNoKoristenoVisible();

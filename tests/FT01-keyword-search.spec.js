@@ -1,10 +1,16 @@
 const { test, expect } = require("@playwright/test");
 const { HomePage } = require("../pages/HomePage");
 const { SearchPage } = require("../pages/SearchPage");
+const { CloudFlarePage } = require("../pages/CloudFlarePage");
+
 
 test("FT01 - Keyword Search @functional", async ({ page }) => {
   const home = new HomePage(page);
   const search = new SearchPage(page);
+  const cloudFlarePage = new CloudFlarePage(page);
+  // 0. Handle CloudFlare if it appears
+  await cloudFlarePage.handleCloudFlareIfPresent();
+
 
   // 1. Navigate to Homepage (pre-condition implicit or explicit)
   await home.open();

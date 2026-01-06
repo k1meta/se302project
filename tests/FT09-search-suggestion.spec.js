@@ -1,10 +1,15 @@
 const { test } = require("@playwright/test");
 const { HomePage } = require("../pages/HomePage");
 const { SearchPage } = require("../pages/SearchPage");
+const { CloudFlarePage } = require("../pages/CloudFlarePage");
 
 test("FT09 - Search Suggestion @functional", async ({ page }) => {
   const home = new HomePage(page);
   const search = new SearchPage(page);
+  const cloudFlarePage = new CloudFlarePage(page);
+  // 0. Handle CloudFlare if it appears
+  await cloudFlarePage.handleCloudFlareIfPresent();
+
 
   await home.open();
   await home.rejectCookies();

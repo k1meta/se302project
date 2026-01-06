@@ -9,6 +9,14 @@ class ListingPage {
       .first();
 
     this.heartFallback = page.getByRole("button", { name: /srce|favorite/i }).first();
+
+    this.listingTitle = page.locator('h1').first();
+
+    // "Prikaži broj telefona" button
+    this.showPhoneBtn = page.getByRole('button', { name: /prikaži broj|prikazi broj/i })
+      .or(page.getByText(/prikaži broj/i));
+
+    this.phoneText = page.locator('.phone-number, .contact-number');
   }
 
   async attemptFavorite() {
@@ -22,18 +30,6 @@ class ListingPage {
   async assertRedirectedToLogin() {
     await expect(this.page).toHaveURL(/\/login|\/profil\/prijava/i, { timeout: 10000 });
   }
-}
-
-module.exports = { ListingPage };
-    
-    this.listingTitle = page.locator('h1').first();
-    
-    // "Prikaži broj telefona" button
-    this.showPhoneBtn = page.getByRole('button', { name: /prikaži broj|prikazi broj/i })
-      .or(page.getByText(/prikaži broj/i));
-      
-    this.phoneText = page.locator('.phone-number, .contact-number');
-  }
 
   async assertTitleMatches(expectedTitle) {
     await expect(this.listingTitle).toBeVisible();
@@ -41,14 +37,12 @@ module.exports = { ListingPage };
     expect(actualTitle.trim()).toBe(expectedTitle);
   }
 
-  async revealPhone() {
-    await this.showPhoneBtn.first().click();
-    // Wait for text to change from "Show" to digits
-    // Assuming the button text gets replaced or a new element appears
-    await expect(this.showPhoneBtn).not.toBeVisible(); // assuming button hides or changes state
-    // Or check that text contains digits
-    const locator = this.page.getByText(/\d{3}/).first(); // rough heuristic for phone
-    await expect(locator).toBeVisible();
+  async clickOnSellerProfile() { // The comma is an or here.
+    await this.page.locator('a[href^="/shops/"][href*="/aktivni"], a[href^="/profil/"][href*="/aktivni"]').first().click();
+  }
+
+  async assertSellerProfile() {
+    await expect(this.page).toHaveURL(/\/(shops|profil)\/.+\/aktivni/);
   }
 }
 
