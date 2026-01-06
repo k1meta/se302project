@@ -1,13 +1,18 @@
 const { test, expect } = require("@playwright/test");
 const { HomePage } = require("../pages/HomePage");
-const { LoginPage2 } = require("../pages/LoginPage");
+const { LoginPage } = require("../pages/LoginPage");
+const { CloudFlarePage } = require("../pages/CloudFlarePage");
 
-test("FT02 - Invalid Login (Redone) @functional", async ({ page }) => {
+test("FT02 - Invalid Login @functional", async ({ page }) => {
   const home = new HomePage(page);
   const login = new LoginPage(page);
+  const cloudFlarePage = new CloudFlarePage(page);
+  // 0. Handle CloudFlare if it appears
+  await cloudFlarePage.handleCloudFlareIfPresent();
+
   // 1. Navigate to Login Page
   await home.open();
-  await HomePage.rejectCookies();
+  await home.rejectCookies();
   await home.goToLogin();
   await login.assertOpenedUrl();
 
@@ -16,5 +21,5 @@ test("FT02 - Invalid Login (Redone) @functional", async ({ page }) => {
   await login.attemptLogin("user@example.com", "Wrong123");
 
   // 3. Verify Error Message and that we weren't redirected
-  await login.assertLoginFailed();
+  await login.assertValidationError_InvalidLogin();
 });

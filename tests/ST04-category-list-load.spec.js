@@ -1,20 +1,17 @@
 const { test } = require("@playwright/test");
 const { HomePage } = require("../pages/HomePage");
-const { dismissConsentIfPresent } = require("../utils/consent");
-
-test.beforeEach(async ({ page }) => {
-  await page.goto("/", { waitUntil: "domcontentloaded" });
-  await dismissConsentIfPresent(page);
-});
+const { CloudFlarePage } = require("../pages/CloudFlarePage");
 
 test("ST04 - Category List Load @smoke", async ({ page }) => {
   const home = new HomePage(page);
+  const cloudFlarePage = new CloudFlarePage(page);
+  await cloudFlarePage.handleCloudFlareIfPresent();
+
 
   await home.open();
-  await dismissConsentIfPresent(page);
+  await home.rejectCookies();
 
   await home.openCategories();
-  await dismissConsentIfPresent(page);
 
   await home.assertCategoriesLoaded(5);
   await page.mouse.wheel(0, 1200);

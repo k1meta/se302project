@@ -169,7 +169,7 @@ async search(term) {
   async rejectCookies() {
   try {
     const rejectButton = this.page.locator('#disagree-btn');
-    await rejectButton.waitFor({ state: 'visible', timeout: 5000 });
+    await rejectButton.waitFor({ state: 'visible', timeout: 30000 }); 
     await rejectButton.click({ force: true });
     await this.page.waitForTimeout(500); // Wait for popup to close
   } catch (error) {

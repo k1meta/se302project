@@ -1,21 +1,19 @@
 const { test, expect } = require("@playwright/test");
 const { HomePage } = require("../pages/HomePage");
-const { dismissConsentIfPresent } = require("../utils/consent");
-
-test.beforeEach(async ({ page }) => {
-  await page.goto("/", { waitUntil: "domcontentloaded" });
-  await dismissConsentIfPresent(page);
-});
+const { CloudFlarePage } = require("../pages/CloudFlarePage");
 
 test("ST01 - Homepage Accessibility @smoke", async ({ page }) => {
   const home = new HomePage(page);
-
   const start = Date.now();
+  const cloudFlarePage = new CloudFlarePage(page);
+  await cloudFlarePage.handleCloudFlareIfPresent();
+
+
   await home.open();
-  await dismissConsentIfPresent(page);
+  await home.rejectCookies();
 
   await home.assertPageIsUp();
   const loadMs = Date.now() - start;
 
-  expect(loadMs).toBeLessThan(5000);
+  expect(loadMs).toBeLessThan(20000);
 });

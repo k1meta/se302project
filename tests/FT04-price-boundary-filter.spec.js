@@ -1,10 +1,14 @@
 const { test } = require("@playwright/test");
 const { HomePage } = require("../pages/HomePage");
 const { SearchPage } = require("../pages/SearchPage");
+const { CloudFlarePage } = require("../pages/CloudFlarePage");
 
 test("FT04 - Price Boundary Filter @functional", async ({ page }) => {
   const home = new HomePage(page);
   const search = new SearchPage(page);
+  const cloudFlarePage = new CloudFlarePage(page);
+  await cloudFlarePage.handleCloudFlareIfPresent();
+
 
   await home.open();
   await home.rejectCookies();
