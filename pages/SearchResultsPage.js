@@ -12,10 +12,10 @@ class SearchResultsPage {
     this.cardPrices = this.listingCards.locator(':text-matches("KM", "i")');
 
     // 1) SORT button/link must be explicitly "Sortiraj" (avoid Filtriraj)
-    this.sortirajTrigger = page.getByText('Sortiraj').or(page.locator('div:nth-child(2) > .flex.flex-row > .h-4'));
+this.sortirajTrigger = page.getByText('Sortiraj').or(page.locator('div:nth-child(2) > .flex.flex-row > .h-4'));
 
     // 2) "Najniža cijena" option could appear as: option/menuitem/button/label/text
-    this.lowestPriceChoice = page.getByRole('button', { name: 'Najniža' });
+      this.lowestPriceChoice = page.getByRole('button', { name: 'Najniža' });
   }
 
   async openVozilaCategory() {
